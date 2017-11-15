@@ -1,0 +1,15 @@
+<custom-action actionType="SQL" isHit="false" name="sql_select" uid="b35114d0-6c94-4a4a-9966-4944e7dd31a5">
+    <description>This action executes SQL statements.
+Possible parameters are:
+- type: (required) the type of SQL statement, possible values are QUERY and UPDATE.
+- connectionName: (required) the name of the connection to map with other advanced actions.
+- sqlStatement: (required) the SQL statement to execute.
+- variableName: (optional) the NeoLoad variable to put the value(s) in.
+- includeQueryResults: (optional) if set at false, the results are not included in the XML response. Default value is true. Should be "false" to optimize resource consumption when executing a query that returns multiple rows and retrieving the values from the variables.
+- batchSize: (optional) the batch number to keep in memory before performing a batch update. Default value is 500.</description>
+    <custom-action-parameter name="type" type="TEXT" value="QUERY"/>
+    <custom-action-parameter name="connectionName" type="TEXT" value="myConnection"/>
+    <custom-action-parameter name="sqlStatement" type="TEXT" value="SELECT* FROM ushahidi_db.posts"/>
+    <custom-action-parameter name="variableName" type="TEXT" value="CounterSQL"/>
+    <responsePageFileDescription>recorded-responses/res_4dc13206-e352-4ce7-a365-360ef662691f</responsePageFileDescription>
+</custom-action>

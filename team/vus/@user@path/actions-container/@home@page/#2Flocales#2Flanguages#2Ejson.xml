@@ -1,0 +1,37 @@
+<http-page executeResourcesDynamically="false"
+    name="/locales/languages.json" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2b768d69-3fa5-4607-873f-81b96b9c58a6.zip"
+    slaProfileEnabled="false" thinkTime="1918"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2b768d69-3fa5-4607-873f-81b96b9c58a6">
+    <embedded-action>0c8c11e7-c409-4174-b970-9850432d0924</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/locales/languages.json"
+    path="/locales/languages.json" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2b768d69-3fa5-4607-873f-81b96b9c58a6.zip"
+    recordedResponseCode="200" responseSize="1050"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="0c8c11e7-c409-4174-b970-9850432d0924" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0c8c11e7-c409-4174-b970-9850432d0924</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0c8c11e7-c409-4174-b970-9850432d0924.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:19 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:19 GMT&#xd;
+ETag: "41a-541870718a7c0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1050&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

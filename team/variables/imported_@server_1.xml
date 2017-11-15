@@ -1,0 +1,3 @@
+<variable-file delimiters=";" filename="Server.0.txt" name="imported_Server_1" offset="1" order="3" policy="4" range="1" uid="731acc78-2848-4992-949b-b8205f6e8e8b" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="Server" number="0"/>
+</variable-file>

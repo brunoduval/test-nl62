@@ -1,0 +1,38 @@
+<http-page executeResourcesDynamically="false"
+    name="/locales/en-US.json" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@post_old/%resources%/recorded-artifacts/5945dbc8-a4a6-4f9a-81f7-a8056c360cc6.zip"
+    slaProfileEnabled="true" slaProfileName="SLA" thinkTime="49"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5945dbc8-a4a6-4f9a-81f7-a8056c360cc6">
+    <embedded-action>5f4437f5-8338-46c4-9f76-e9f8505bb807</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9c462982-6385-49ac-8b59-f2333df65222.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=iso-8859-1"
+    eTag="&quot;1a82-54186f405d7c0-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:45:59 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/locales/en-US.json" path="/locales/en-US.json"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@post_old/%resources%/recorded-artifacts/5945dbc8-a4a6-4f9a-81f7-a8056c360cc6.zip"
+    recordedResponseCode="404" responseSize="296"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="5f4437f5-8338-46c4-9f76-e9f8505bb807" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1a0e459f-17dc-4e18-b9c6-488e58f9ba54.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1a0e459f-17dc-4e18-b9c6-488e58f9ba54.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="192.168.99.100"/>
+    <header name="Referer" value="http://192.168.99.100/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36"/>
+    <header name="X-access-header" value="bG90dGVyeTpQQHNzdzByZDE="/>
+    <responseHeaders>HTTP/1.1 404 Not Found&#xd;
+Date: Fri, 14 Apr 2017 06:58:00 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Content-Length: 296&#xd;
+Content-Type: text/html; charset=iso-8859-1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

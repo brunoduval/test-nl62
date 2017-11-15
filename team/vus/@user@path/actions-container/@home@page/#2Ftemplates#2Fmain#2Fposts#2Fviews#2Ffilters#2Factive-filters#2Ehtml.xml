@@ -1,0 +1,42 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/views/filters/active-filters.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/bd884fb1-2fa8-4527-9124-2f7b540f8134.zip"
+    slaProfileEnabled="false" thinkTime="2"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="bd884fb1-2fa8-4527-9124-2f7b540f8134">
+    <embedded-action>19efc5be-ccfc-4c84-b9d4-9b9677ffb4ad</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/templates/main/posts/views/filters/active-filters.html"
+    path="/templates/main/posts/views/filters/active-filters.html"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/bd884fb1-2fa8-4527-9124-2f7b540f8134.zip"
+    recordedResponseCode="200" responseSize="473"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="19efc5be-ccfc-4c84-b9d4-9b9677ffb4ad" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_19efc5be-ccfc-4c84-b9d4-9b9677ffb4ad.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_19efc5be-ccfc-4c84-b9d4-9b9677ffb4ad.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:20 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "1d9-5418708f1ad80-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 301&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

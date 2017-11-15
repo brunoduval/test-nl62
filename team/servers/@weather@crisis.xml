@@ -1,0 +1,8 @@
+<http-server
+    hostname="ec2-18-194-167-154.eu-central-1.compute.amazonaws.com"
+    port="80" ssl="false" uid="WeatherCrisis"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";">
+    <authorization password="" realm="" scheme="Basic" userName=""/>
+</http-server>

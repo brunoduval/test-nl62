@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="MySQL" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="SLA" uid="92a6f00f-2fa0-4150-87c0-f17c67c6dfe5" weightsEnabled="false">
+    <weighted-embedded-action uid="48b81e3c-a940-4fa4-8d60-8efedf5855fc"/>
+    <weighted-embedded-action uid="73070052-7f15-41a5-9851-6a91023ae3a4"/>
+    <weighted-embedded-action uid="73ebca0c-f864-4158-9713-9b499a65b447"/>
+</basic-logical-action-container>

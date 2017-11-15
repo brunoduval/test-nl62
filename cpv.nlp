@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=cpv
+project.version=6.1
+project.original.version=5.3
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=5.4.0
+project.id=511fd261-fd2d-48ed-be17-daa3bddc7895
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=brunoduval/test-nl62.git

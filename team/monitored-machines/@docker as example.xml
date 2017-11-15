@@ -1,0 +1,4 @@
+<monitored-host host-name="ushahidi" mehost-name="localhost" uid="Docker as example">
+    <description>Container ID must be retrieve manually from http://ushahidi:7777/docker</description>
+    <embedded-action>c1654aa6-e410-4b27-aecf-1be3ca1e7958</embedded-action>
+</monitored-host>

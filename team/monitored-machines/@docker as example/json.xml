@@ -1,0 +1,687 @@
+<connection-json interval="5000" name="json" server-port="0"
+    uid="c1654aa6-e410-4b27-aecf-1be3ca1e7958" url="/">
+    <monitor-category name="root" short-display-name="root">
+        <monitor-category
+            name="/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267" short-display-name="/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267">
+            <monitor-category name="0" short-display-name="0">
+                <monitor-category name="cpu" short-display-name="cpu">
+                    <monitor-json callTime="ON_BENCH" computing="0"
+                        counter-id="6373d68094416a0f6c488a6c6b10e105a871c60b"
+                        format="NUMBER"
+                        gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['load_average']/load_average"
+                        name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['load_average']:6373d68094416a0f6c488a6c6b10e105a871c60b"
+                        path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['load_average']"
+                        sampling="0" short-display-name="load_average" unit=""/>
+                    <monitor-category name="usage" short-display-name="usage">
+                        <monitor-json callTime="ON_BENCH" computing="0"
+                            counter-id="44ad75f1b717d6073c99c0bea95865a1c6129d9c"
+                            format="NUMBER"
+                            gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['total']/total"
+                            name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['total']:44ad75f1b717d6073c99c0bea95865a1c6129d9c"
+                            path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['total']"
+                            sampling="0" short-display-name="total" unit=""/>
+                        <monitor-json callTime="ON_BENCH" computing="0"
+                            counter-id="be6027b90cda7a29b362b4e37cf3680c17216294"
+                            format="NUMBER"
+                            gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['user']/user"
+                            name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['user']:be6027b90cda7a29b362b4e37cf3680c17216294"
+                            path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['user']"
+                            sampling="0" short-display-name="user" unit=""/>
+                        <monitor-json callTime="ON_BENCH" computing="0"
+                            counter-id="0a6be64b716f9b700b27ba0b857eb3ec61a05b74"
+                            format="NUMBER"
+                            gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['system']/system"
+                            name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['system']:0a6be64b716f9b700b27ba0b857eb3ec61a05b74"
+                            path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['system']"
+                            sampling="0" short-display-name="system" unit=""/>
+                        <monitor-category name="per_cpu_usage" short-display-name="per_cpu_usage">
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="c2d389ac1585ad4407d567070307d09beca29205"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['per_cpu_usage'][0]/0"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['per_cpu_usage'][0]:c2d389ac1585ad4407d567070307d09beca29205"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['per_cpu_usage'][0]"
+                                sampling="0" short-display-name="0" unit=""/>
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="8956d8ccb1b0a3557507333222eefafda1c1b24c"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['per_cpu_usage'][1]/1"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['per_cpu_usage'][1]:8956d8ccb1b0a3557507333222eefafda1c1b24c"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['per_cpu_usage'][1]"
+                                sampling="0" short-display-name="1" unit=""/>
+                        </monitor-category>
+                    </monitor-category>
+                    <monitor-category name="cfs" short-display-name="cfs">
+                        <monitor-json callTime="ON_BENCH" computing="0"
+                            counter-id="c9284cb9cf747f651f787b01d053890463589ebf"
+                            format="NUMBER"
+                            gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['periods']/periods"
+                            name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['periods']:c9284cb9cf747f651f787b01d053890463589ebf"
+                            path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['periods']"
+                            sampling="0" short-display-name="periods" unit=""/>
+                        <monitor-json callTime="ON_BENCH" computing="0"
+                            counter-id="b46d096aeec11687cf1d53cc2265f7e687609949"
+                            format="NUMBER"
+                            gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['throttled_periods']/throttled_periods"
+                            name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['throttled_periods']:b46d096aeec11687cf1d53cc2265f7e687609949"
+                            path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['throttled_periods']"
+                            sampling="0"
+                            short-display-name="throttled_periods" unit=""/>
+                        <monitor-json callTime="ON_BENCH" computing="0"
+                            counter-id="578313230fa59c0618d73407903af8e0014ff6a2"
+                            format="NUMBER"
+                            gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['throttled_time']/throttled_time"
+                            name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['throttled_time']:578313230fa59c0618d73407903af8e0014ff6a2"
+                            path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['throttled_time']"
+                            sampling="0"
+                            short-display-name="throttled_time" unit=""/>
+                    </monitor-category>
+                </monitor-category>
+                <monitor-category name="diskio" short-display-name="diskio">
+                    <monitor-category name="io_service_bytes" short-display-name="io_service_bytes">
+                        <monitor-category name="0" short-display-name="0">
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="d02b433a8c7cd6702d6e896879bd3d2100481b74"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['major']/major"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['major']:d02b433a8c7cd6702d6e896879bd3d2100481b74"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['major']"
+                                sampling="0" short-display-name="major" unit=""/>
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="a3c0ccf281115f5b0983086b07293678b94a934c"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['minor']/minor"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['minor']:a3c0ccf281115f5b0983086b07293678b94a934c"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['minor']"
+                                sampling="0" short-display-name="minor" unit=""/>
+                            <monitor-category name="stats" short-display-name="stats">
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="803ae206528cd5f3abd21a195396d3c7a2b7cdd1"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Async']/Async"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Async']:803ae206528cd5f3abd21a195396d3c7a2b7cdd1"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Async']"
+                                    sampling="0"
+                                    short-display-name="Async" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="78ea876b71999ace34d5b1cd487a294e99d5ba24"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Read']/Read"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Read']:78ea876b71999ace34d5b1cd487a294e99d5ba24"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Read']"
+                                    sampling="0"
+                                    short-display-name="Read" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="c94b9cbb3fd51e0d83a3b37f487d545553f808d8"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Sync']/Sync"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Sync']:c94b9cbb3fd51e0d83a3b37f487d545553f808d8"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Sync']"
+                                    sampling="0"
+                                    short-display-name="Sync" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="ca1ed30fa9d4f82b7ae8ceea160e39341456bf16"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Total']/Total"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Total']:ca1ed30fa9d4f82b7ae8ceea160e39341456bf16"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Total']"
+                                    sampling="0"
+                                    short-display-name="Total" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="461ba4275bd8813caaf5b9c67752a2c83753a86a"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Write']/Write"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Write']:461ba4275bd8813caaf5b9c67752a2c83753a86a"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Write']"
+                                    sampling="0"
+                                    short-display-name="Write" unit=""/>
+                            </monitor-category>
+                        </monitor-category>
+                        <monitor-category name="1" short-display-name="1">
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="feaf84c3e3f60485b3a8fe679458ab19633154cc"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['major']/major"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['major']:feaf84c3e3f60485b3a8fe679458ab19633154cc"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['major']"
+                                sampling="0" short-display-name="major" unit=""/>
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="9babda13df46b4d5ff9018a43085c2f23b217b94"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['minor']/minor"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['minor']:9babda13df46b4d5ff9018a43085c2f23b217b94"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['minor']"
+                                sampling="0" short-display-name="minor" unit=""/>
+                            <monitor-category name="stats" short-display-name="stats">
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="fc33cd25e7a7094bbd2adfb672d877a2eb211aee"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Async']/Async"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Async']:fc33cd25e7a7094bbd2adfb672d877a2eb211aee"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Async']"
+                                    sampling="0"
+                                    short-display-name="Async" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="ceac8c055fa5b07e1f3e1dffd5129250dc57d572"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Read']/Read"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Read']:ceac8c055fa5b07e1f3e1dffd5129250dc57d572"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Read']"
+                                    sampling="0"
+                                    short-display-name="Read" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="3b2893af7596cbe4c678c541eded86316f468b2a"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Sync']/Sync"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Sync']:3b2893af7596cbe4c678c541eded86316f468b2a"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Sync']"
+                                    sampling="0"
+                                    short-display-name="Sync" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="14eefae2d777c081614087206a5c814a93dde77c"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Total']/Total"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Total']:14eefae2d777c081614087206a5c814a93dde77c"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Total']"
+                                    sampling="0"
+                                    short-display-name="Total" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="f2c97d55c3997e521ec44173d42f1f65df371e24"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Write']/Write"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Write']:f2c97d55c3997e521ec44173d42f1f65df371e24"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Write']"
+                                    sampling="0"
+                                    short-display-name="Write" unit=""/>
+                            </monitor-category>
+                        </monitor-category>
+                        <monitor-category name="2" short-display-name="2">
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="e9471a3d57ad4713485abaab505d6355ecd4d2a4"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['major']/major"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['major']:e9471a3d57ad4713485abaab505d6355ecd4d2a4"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['major']"
+                                sampling="0" short-display-name="major" unit=""/>
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="3ce404613859021f6acf9075da115f4dfc7f7f68"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['minor']/minor"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['minor']:3ce404613859021f6acf9075da115f4dfc7f7f68"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['minor']"
+                                sampling="0" short-display-name="minor" unit=""/>
+                            <monitor-category name="stats" short-display-name="stats">
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="637639150c9b5ac2bb3e01b1412a6f245c5bf113"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Async']/Async"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Async']:637639150c9b5ac2bb3e01b1412a6f245c5bf113"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Async']"
+                                    sampling="0"
+                                    short-display-name="Async" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="2a97ad04eb7c14973abb77426cb48b231451a53f"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Read']/Read"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Read']:2a97ad04eb7c14973abb77426cb48b231451a53f"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Read']"
+                                    sampling="0"
+                                    short-display-name="Read" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="3f291bb20801d5bb98175424455ed391f613a32f"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Sync']/Sync"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Sync']:3f291bb20801d5bb98175424455ed391f613a32f"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Sync']"
+                                    sampling="0"
+                                    short-display-name="Sync" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="fa902391079fcb0efa83f2cd664f1a399239f99e"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Total']/Total"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Total']:fa902391079fcb0efa83f2cd664f1a399239f99e"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Total']"
+                                    sampling="0"
+                                    short-display-name="Total" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="164af5bb1aedbac5c49255addf1ba768f56f258a"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Write']/Write"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Write']:164af5bb1aedbac5c49255addf1ba768f56f258a"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Write']"
+                                    sampling="0"
+                                    short-display-name="Write" unit=""/>
+                            </monitor-category>
+                        </monitor-category>
+                        <monitor-category name="3" short-display-name="3">
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="b3d8102606f250c8c399e0955fc5b382b6d32f3b"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['major']/major"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['major']:b3d8102606f250c8c399e0955fc5b382b6d32f3b"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['major']"
+                                sampling="0" short-display-name="major" unit=""/>
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="e743d42cc19bd52ab94f549d5a92623b5181a797"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['minor']/minor"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['minor']:e743d42cc19bd52ab94f549d5a92623b5181a797"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['minor']"
+                                sampling="0" short-display-name="minor" unit=""/>
+                            <monitor-category name="stats" short-display-name="stats">
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="35f6dc0503133281572a9e63d04078e1fe967358"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Async']/Async"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Async']:35f6dc0503133281572a9e63d04078e1fe967358"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Async']"
+                                    sampling="0"
+                                    short-display-name="Async" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="8523a529c6dccae3af90672f231e39df4b18ff23"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Read']/Read"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Read']:8523a529c6dccae3af90672f231e39df4b18ff23"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Read']"
+                                    sampling="0"
+                                    short-display-name="Read" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="450f87211fc4c5b6833a7f01dca567d217924ebf"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Sync']/Sync"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Sync']:450f87211fc4c5b6833a7f01dca567d217924ebf"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Sync']"
+                                    sampling="0"
+                                    short-display-name="Sync" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="a34f20fae80bec16c2f89bffe4cd7611534deb65"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Total']/Total"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Total']:a34f20fae80bec16c2f89bffe4cd7611534deb65"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Total']"
+                                    sampling="0"
+                                    short-display-name="Total" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="66ff46de6e34fbe011bd7719b66f9ca2210364fc"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Write']/Write"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Write']:66ff46de6e34fbe011bd7719b66f9ca2210364fc"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Write']"
+                                    sampling="0"
+                                    short-display-name="Write" unit=""/>
+                            </monitor-category>
+                        </monitor-category>
+                    </monitor-category>
+                    <monitor-category name="io_serviced" short-display-name="io_serviced">
+                        <monitor-category name="0" short-display-name="0">
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="05d4b9f26a6759d1899d08aa9d9acd06fa547b2a"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['major']/major"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['major']:05d4b9f26a6759d1899d08aa9d9acd06fa547b2a"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['major']"
+                                sampling="0" short-display-name="major" unit=""/>
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="d94d897e25344e59fa9926e939273ca0343f96db"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['minor']/minor"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['minor']:d94d897e25344e59fa9926e939273ca0343f96db"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['minor']"
+                                sampling="0" short-display-name="minor" unit=""/>
+                            <monitor-category name="stats" short-display-name="stats">
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="7b93294446bed657dcbca55f9411852698ef31e9"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Async']/Async"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Async']:7b93294446bed657dcbca55f9411852698ef31e9"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Async']"
+                                    sampling="0"
+                                    short-display-name="Async" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="3dade7981caca175ff446b3c4969f79c5cb2fb27"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Read']/Read"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Read']:3dade7981caca175ff446b3c4969f79c5cb2fb27"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Read']"
+                                    sampling="0"
+                                    short-display-name="Read" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="be2be194ffde2baead0edf1cd530c4cc96295176"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Sync']/Sync"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Sync']:be2be194ffde2baead0edf1cd530c4cc96295176"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Sync']"
+                                    sampling="0"
+                                    short-display-name="Sync" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="44469c7670b93c6ce231d6083a1cebbac65deaa2"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Total']/Total"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Total']:44469c7670b93c6ce231d6083a1cebbac65deaa2"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Total']"
+                                    sampling="0"
+                                    short-display-name="Total" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="698926dc7537968b4267c8a876714c8c315644e8"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Write']/Write"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Write']:698926dc7537968b4267c8a876714c8c315644e8"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Write']"
+                                    sampling="0"
+                                    short-display-name="Write" unit=""/>
+                            </monitor-category>
+                        </monitor-category>
+                        <monitor-category name="1" short-display-name="1">
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="104ecb2b4823e045fcc51f5e70996f31bf98e852"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['major']/major"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['major']:104ecb2b4823e045fcc51f5e70996f31bf98e852"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['major']"
+                                sampling="0" short-display-name="major" unit=""/>
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="ee9d4a8756d1b282c5b704bebed65426e2743ba8"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['minor']/minor"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['minor']:ee9d4a8756d1b282c5b704bebed65426e2743ba8"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['minor']"
+                                sampling="0" short-display-name="minor" unit=""/>
+                            <monitor-category name="stats" short-display-name="stats">
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="a8fc0355ef2a58f33a56fdfbbf2b68a4c917146d"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Async']/Async"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Async']:a8fc0355ef2a58f33a56fdfbbf2b68a4c917146d"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Async']"
+                                    sampling="0"
+                                    short-display-name="Async" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="23b6e5f74eac7b4690ad560a5909e19424825f16"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Read']/Read"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Read']:23b6e5f74eac7b4690ad560a5909e19424825f16"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Read']"
+                                    sampling="0"
+                                    short-display-name="Read" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="a7622d6f8e35db2dfcadad1af4984c55cd85a9bd"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Sync']/Sync"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Sync']:a7622d6f8e35db2dfcadad1af4984c55cd85a9bd"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Sync']"
+                                    sampling="0"
+                                    short-display-name="Sync" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="1c15576d197a9e582ff43a649644707320dda787"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Total']/Total"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Total']:1c15576d197a9e582ff43a649644707320dda787"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Total']"
+                                    sampling="0"
+                                    short-display-name="Total" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="134602d851a361a211211d43d7c9a04fc30e3dcf"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Write']/Write"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Write']:134602d851a361a211211d43d7c9a04fc30e3dcf"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Write']"
+                                    sampling="0"
+                                    short-display-name="Write" unit=""/>
+                            </monitor-category>
+                        </monitor-category>
+                        <monitor-category name="2" short-display-name="2">
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="7feeeb856293728f90226a4d558a12b521353596"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['major']/major"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['major']:7feeeb856293728f90226a4d558a12b521353596"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['major']"
+                                sampling="0" short-display-name="major" unit=""/>
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="79b7530ffa41ab0333fcf2add848a70da368f805"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['minor']/minor"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['minor']:79b7530ffa41ab0333fcf2add848a70da368f805"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['minor']"
+                                sampling="0" short-display-name="minor" unit=""/>
+                            <monitor-category name="stats" short-display-name="stats">
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="1c314434381bbc2ba28d115a2afe46d8fde7b31a"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Async']/Async"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Async']:1c314434381bbc2ba28d115a2afe46d8fde7b31a"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Async']"
+                                    sampling="0"
+                                    short-display-name="Async" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="308c608cdc70af9ecce2863b2ad7af4b695f8967"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Read']/Read"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Read']:308c608cdc70af9ecce2863b2ad7af4b695f8967"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Read']"
+                                    sampling="0"
+                                    short-display-name="Read" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="bd0f0f20d1b8d0be2fba904d5e88579751342dde"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Sync']/Sync"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Sync']:bd0f0f20d1b8d0be2fba904d5e88579751342dde"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Sync']"
+                                    sampling="0"
+                                    short-display-name="Sync" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="445148705288df1e51719856814661f2650e6c99"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Total']/Total"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Total']:445148705288df1e51719856814661f2650e6c99"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Total']"
+                                    sampling="0"
+                                    short-display-name="Total" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="0af3e56dd13e236cdf2b23ef0ad65ebeef97ab91"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Write']/Write"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Write']:0af3e56dd13e236cdf2b23ef0ad65ebeef97ab91"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Write']"
+                                    sampling="0"
+                                    short-display-name="Write" unit=""/>
+                            </monitor-category>
+                        </monitor-category>
+                        <monitor-category name="3" short-display-name="3">
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="1e2b80e55a5a639524aebebccee6b0da3460daf6"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['major']/major"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['major']:1e2b80e55a5a639524aebebccee6b0da3460daf6"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['major']"
+                                sampling="0" short-display-name="major" unit=""/>
+                            <monitor-json callTime="ON_BENCH"
+                                computing="0"
+                                counter-id="79c6a755d7d64454bedb040ffbbc319bb3602235"
+                                format="NUMBER"
+                                gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['minor']/minor"
+                                name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['minor']:79c6a755d7d64454bedb040ffbbc319bb3602235"
+                                path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['minor']"
+                                sampling="0" short-display-name="minor" unit=""/>
+                            <monitor-category name="stats" short-display-name="stats">
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="e8d7582cc25fb2ef3fb48cf27e6fdf911739069c"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Async']/Async"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Async']:e8d7582cc25fb2ef3fb48cf27e6fdf911739069c"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Async']"
+                                    sampling="0"
+                                    short-display-name="Async" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="d82eb836994ed489f94860f917106cf7ed34cd2f"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Read']/Read"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Read']:d82eb836994ed489f94860f917106cf7ed34cd2f"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Read']"
+                                    sampling="0"
+                                    short-display-name="Read" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="188e8d8bf5a668bcd77aa3ccf261684ec0105ec4"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Sync']/Sync"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Sync']:188e8d8bf5a668bcd77aa3ccf261684ec0105ec4"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Sync']"
+                                    sampling="0"
+                                    short-display-name="Sync" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="e9bb03c7dde679b156e4dff5f4bb88eeb102292b"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Total']/Total"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Total']:e9bb03c7dde679b156e4dff5f4bb88eeb102292b"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Total']"
+                                    sampling="0"
+                                    short-display-name="Total" unit=""/>
+                                <monitor-json callTime="ON_BENCH"
+                                    computing="0"
+                                    counter-id="8493900f3832856e2a13b8d4a773869a995b1c96"
+                                    format="NUMBER"
+                                    gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Write']/Write"
+                                    name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Write']:8493900f3832856e2a13b8d4a773869a995b1c96"
+                                    path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Write']"
+                                    sampling="0"
+                                    short-display-name="Write" unit=""/>
+                            </monitor-category>
+                        </monitor-category>
+                    </monitor-category>
+                </monitor-category>
+                <monitor-category name="memory" short-display-name="memory">
+                    <monitor-json callTime="ON_BENCH" computing="0"
+                        counter-id="b59f820c02555b50889aae31dbd1c09bff235f13"
+                        format="NUMBER"
+                        gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['usage']/usage"
+                        name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['usage']:b59f820c02555b50889aae31dbd1c09bff235f13"
+                        path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['usage']"
+                        sampling="0" short-display-name="usage" unit=""/>
+                    <monitor-json callTime="ON_BENCH" computing="0"
+                        counter-id="faea09d6515a4664d157939b89a70fc0c468a2c9"
+                        format="NUMBER"
+                        gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['cache']/cache"
+                        name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['cache']:faea09d6515a4664d157939b89a70fc0c468a2c9"
+                        path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['cache']"
+                        sampling="0" short-display-name="cache" unit=""/>
+                    <monitor-json callTime="ON_BENCH" computing="0"
+                        counter-id="14ef55d891a9b66d36129120ccc49d0bb90ddfa4"
+                        format="NUMBER"
+                        gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['rss']/rss"
+                        name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['rss']:14ef55d891a9b66d36129120ccc49d0bb90ddfa4"
+                        path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['rss']"
+                        sampling="0" short-display-name="rss" unit=""/>
+                    <monitor-json callTime="ON_BENCH" computing="0"
+                        counter-id="0e8219e1977557587c8ab32ba32eb9d7926fb5f5"
+                        format="NUMBER"
+                        gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['swap']/swap"
+                        name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['swap']:0e8219e1977557587c8ab32ba32eb9d7926fb5f5"
+                        path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['swap']"
+                        sampling="0" short-display-name="swap" unit=""/>
+                    <monitor-json callTime="ON_BENCH" computing="0"
+                        counter-id="8208f7e1b45f1a838ebb08165b68f266c00e8d4c"
+                        format="NUMBER"
+                        gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['working_set']/working_set"
+                        name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['working_set']:8208f7e1b45f1a838ebb08165b68f266c00e8d4c"
+                        path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['working_set']"
+                        sampling="0" short-display-name="working_set" unit=""/>
+                    <monitor-json callTime="ON_BENCH" computing="0"
+                        counter-id="4f2d176a1e51a038bf87a3d89c860e05214e9101"
+                        format="NUMBER"
+                        gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['failcnt']/failcnt"
+                        name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['failcnt']:4f2d176a1e51a038bf87a3d89c860e05214e9101"
+                        path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['failcnt']"
+                        sampling="0" short-display-name="failcnt" unit=""/>
+                    <monitor-category name="container_data" short-display-name="container_data">
+                        <monitor-json callTime="ON_BENCH" computing="0"
+                            counter-id="6fef8d735f05f62c129f5f8a25ca49601fee1977"
+                            format="NUMBER"
+                            gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['container_data']['pgfault']/pgfault"
+                            name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['container_data']['pgfault']:6fef8d735f05f62c129f5f8a25ca49601fee1977"
+                            path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['container_data']['pgfault']"
+                            sampling="0" short-display-name="pgfault" unit=""/>
+                        <monitor-json callTime="ON_BENCH" computing="0"
+                            counter-id="7d190b0596da020ec6a7210ed0423bd9a5ae98f1"
+                            format="NUMBER"
+                            gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['container_data']['pgmajfault']/pgmajfault"
+                            name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['container_data']['pgmajfault']:7d190b0596da020ec6a7210ed0423bd9a5ae98f1"
+                            path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['container_data']['pgmajfault']"
+                            sampling="0" short-display-name="pgmajfault" unit=""/>
+                    </monitor-category>
+                    <monitor-category name="hierarchical_data" short-display-name="hierarchical_data">
+                        <monitor-json callTime="ON_BENCH" computing="0"
+                            counter-id="3311c94e65ce908edd8a05ea454d6db7c025b956"
+                            format="NUMBER"
+                            gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['hierarchical_data']['pgfault']/pgfault"
+                            name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['hierarchical_data']['pgfault']:3311c94e65ce908edd8a05ea454d6db7c025b956"
+                            path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['hierarchical_data']['pgfault']"
+                            sampling="0" short-display-name="pgfault" unit=""/>
+                        <monitor-json callTime="ON_BENCH" computing="0"
+                            counter-id="c7fd2bfc376e3d0818713d3aa737e9f960774883"
+                            format="NUMBER"
+                            gui-path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['hierarchical_data']['pgmajfault']/pgmajfault"
+                            name="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['hierarchical_data']['pgmajfault']:c7fd2bfc376e3d0818713d3aa737e9f960774883"
+                            path="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['hierarchical_data']['pgmajfault']"
+                            sampling="0" short-display-name="pgmajfault" unit=""/>
+                    </monitor-category>
+                </monitor-category>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+</connection-json>

@@ -1,0 +1,8 @@
+<custom-action actionType="SQL Disconnection" isHit="false"
+    name="sql_disconnection" uid="bf505993-31f5-4f34-8643-16ff5cc4eb60">
+    <description>This action disconnects from a SQL database.
+Possible parameters are:
+- connectionName: (required) the name of the connection to disconnect..</description>
+    <custom-action-parameter name="connectionName" type="TEXT" value="myConnection"/>
+    <responsePageFileDescription>recorded-responses/res_2605c87c-f2c3-4afd-ade5-f8f025d84e8a</responsePageFileDescription>
+</custom-action>

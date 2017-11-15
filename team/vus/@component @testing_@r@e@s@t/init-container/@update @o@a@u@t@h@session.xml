@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Update OAUTHSession" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="SLA" uid="77a3ed81-41a7-497d-a195-e49f0ccd6aa9" weightsEnabled="false">
+    <weighted-embedded-action uid="0cb3d2cd-2ef3-487c-b428-07b9c31142b8"/>
+    <weighted-embedded-action uid="b0972fe0-4175-4e03-80a2-aaf054e55c30"/>
+    <weighted-embedded-action uid="cbb6973b-7e3a-48e9-940f-5541a7ef2c10"/>
+    <weighted-embedded-action uid="67145fea-d6d6-43a6-a7af-1651dfc0677d"/>
+    <weighted-embedded-action uid="68340517-9706-4414-a87c-b60a621cd5f5"/>
+</basic-logical-action-container>

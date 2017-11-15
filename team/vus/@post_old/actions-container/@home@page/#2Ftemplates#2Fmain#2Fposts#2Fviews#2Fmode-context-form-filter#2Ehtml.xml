@@ -1,0 +1,46 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/views/mode-context-form-filter.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@post_old/%resources%/recorded-artifacts/24b4dd04-3f32-4f28-8f74-fa9613226316.zip"
+    slaProfileEnabled="true" slaProfileName="SLA" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="24b4dd04-3f32-4f28-8f74-fa9613226316">
+    <embedded-action>af50f4e5-d64a-4cf1-8002-4c830353d4be</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_943ce644-afe5-414b-b671-ca444713ac90.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;1180-5418708f1ad80-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/templates/main/posts/views/mode-context-form-filter.html"
+    path="/templates/main/posts/views/mode-context-form-filter.html"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@post_old/%resources%/recorded-artifacts/24b4dd04-3f32-4f28-8f74-fa9613226316.zip"
+    recordedResponseCode="200" responseSize="4480"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="af50f4e5-d64a-4cf1-8002-4c830353d4be" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_405ffcc0-600e-4eef-9ced-bd0929e410b4.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_405ffcc0-600e-4eef-9ced-bd0929e410b4.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="192.168.99.100"/>
+    <header name="Referer" value="http://192.168.99.100/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36"/>
+    <header name="X-access-header" value="bG90dGVyeTpQQHNzdzByZDE="/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 14 Apr 2017 06:58:00 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "1180-5418708f1ad80-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 910&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

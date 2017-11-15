@@ -1,0 +1,106 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/common/directives/ush-logo.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/39ce884c-3fc7-4966-890e-32aa3040d2a0.zip"
+    slaProfileEnabled="false" thinkTime="7"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="39ce884c-3fc7-4966-890e-32aa3040d2a0">
+    <embedded-action>a15701d1-666f-44e0-a6c2-9735019245d8</embedded-action>
+    <embedded-action>2b175cab-a14f-41a1-93db-20134a591cf7</embedded-action>
+    <embedded-action>6e196737-ee2b-44e8-b2d8-7ab8cca6db49</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/common/directives/ush-logo.html"
+    path="/templates/common/directives/ush-logo.html" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/39ce884c-3fc7-4966-890e-32aa3040d2a0.zip"
+    recordedResponseCode="200" responseSize="254"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="a15701d1-666f-44e0-a6c2-9735019245d8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a15701d1-666f-44e0-a6c2-9735019245d8.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a15701d1-666f-44e0-a6c2-9735019245d8.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:20 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:21 GMT&#xd;
+ETag: "fe-5418707372c40-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 196&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/config/site"
+    path="/platform/api/v3/config/site" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/39ce884c-3fc7-4966-890e-32aa3040d2a0.zip"
+    recordedResponseCode="200" responseSize="565"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="2b175cab-a14f-41a1-93db-20134a591cf7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2b175cab-a14f-41a1-93db-20134a591cf7</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2b175cab-a14f-41a1-93db-20134a591cf7.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer 2uNY1AtsTCfFEUBSerjunfp7qEIx4xiQc4Va32Wt"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:20 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, PUT, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, PUT, OPTIONS&#xd;
+Content-Length: 565&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/config/features"
+    path="/platform/api/v3/config/features" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/39ce884c-3fc7-4966-890e-32aa3040d2a0.zip"
+    recordedResponseCode="200" responseSize="730"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="6e196737-ee2b-44e8-b2d8-7ab8cca6db49" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6e196737-ee2b-44e8-b2d8-7ab8cca6db49</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6e196737-ee2b-44e8-b2d8-7ab8cca6db49.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer XolgzIjdVS5DVh19pUvLPEYuBuPvV73idCA4tyvw"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:20 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, PUT, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, PUT, OPTIONS&#xd;
+Content-Length: 730&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

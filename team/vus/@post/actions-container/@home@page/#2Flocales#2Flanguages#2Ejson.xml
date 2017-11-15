@@ -1,0 +1,40 @@
+<http-page executeResourcesDynamically="false"
+    name="/locales/languages.json" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/d0f45591-5118-4d28-b749-c9814afc6cb1.zip"
+    slaProfileEnabled="true" slaProfileName="SLA" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d0f45591-5118-4d28-b749-c9814afc6cb1">
+    <embedded-action>9da5c74f-9e8e-43ef-a335-b798fc1ceb53</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6f23a888-9321-4604-bcf3-bec6189efb5f.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    eTag="&quot;41a-541870718a7c0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:19 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/locales/languages.json"
+    path="/locales/languages.json" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/d0f45591-5118-4d28-b749-c9814afc6cb1.zip"
+    recordedResponseCode="200" responseSize="1050"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="9da5c74f-9e8e-43ef-a335-b798fc1ceb53" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a3b7b3e4-6a3d-4b09-8dff-59c3f1117770</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a3b7b3e4-6a3d-4b09-8dff-59c3f1117770.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:19 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:19 GMT&#xd;
+ETag: "41a-541870718a7c0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1050&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

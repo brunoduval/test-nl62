@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="API 10 calls" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="SLA" uid="0cc7f8a9-bad0-4cbf-9f4b-3c60dc5cc66c" weightsEnabled="false">
+    <weighted-embedded-action uid="0e99fc6f-b72b-426e-87e5-bd2c7c105611"/>
+</basic-logical-action-container>

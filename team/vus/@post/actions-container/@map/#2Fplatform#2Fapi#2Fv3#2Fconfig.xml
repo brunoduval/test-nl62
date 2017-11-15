@@ -1,0 +1,1114 @@
+<http-page executeResourcesDynamically="false"
+    name="/platform/api/v3/config" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    slaProfileEnabled="true" slaProfileName="SLA" thinkTime="7805"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="86ba338d-384a-42d7-94af-8212c636ad7d">
+    <embedded-action>d6c59154-9469-4c23-b68a-6a31e1d02691</embedded-action>
+    <embedded-action>54d9f770-31e7-4fac-a72f-895faecd509e</embedded-action>
+    <embedded-action>210979d6-302e-4d9c-b93f-1f7c0e75635b</embedded-action>
+    <embedded-action>60910a07-3957-43a6-9e53-737bdd06e2da</embedded-action>
+    <embedded-action>34cfac36-2217-43c2-9c21-44e35a49da23</embedded-action>
+    <embedded-action>8e9eb826-7bf7-4083-81aa-34b85783c9ef</embedded-action>
+    <embedded-action>c3873318-adcf-492b-b53e-3d1ee57f0d03</embedded-action>
+    <embedded-action>86926a04-ccd8-4895-bbda-f24786f29d0f</embedded-action>
+    <embedded-action>ca44a2b9-7bbb-4bc0-9647-d2d0f7cfd47d</embedded-action>
+    <embedded-action>8e10c361-9595-4a0f-b5da-b70867304835</embedded-action>
+    <embedded-action>155124cf-375c-4dcc-8474-e12ae5e596af</embedded-action>
+    <embedded-action>039744e9-3076-45b3-9cd6-b8b32b78a140</embedded-action>
+    <embedded-action>908f387c-0241-4fd7-b169-9815e1b4f04d</embedded-action>
+    <embedded-action>01554a06-3bb7-4ca5-bafb-0ac98f97e719</embedded-action>
+    <embedded-action>983aa4e9-d0a1-4de8-8d4b-35a86cf9f590</embedded-action>
+    <embedded-action>bce9f751-29f3-4352-ae3a-8baefcb45bed</embedded-action>
+    <embedded-action>6aaaf8cb-04b1-472f-8abe-ec6f587b5eea</embedded-action>
+    <embedded-action>ba57daee-a384-4b5e-9398-65dc5dc2a511</embedded-action>
+    <embedded-action>731856a1-2a2b-4fd5-94ab-1762bcf068e5</embedded-action>
+    <embedded-action>2cc96f3e-e8ec-4381-b5c3-644a288bb4a2</embedded-action>
+    <embedded-action>d69a32e1-cf0b-4d3a-9111-bd6f923200db</embedded-action>
+    <embedded-action>b76ee270-1d53-478a-82d6-5549bcb14f89</embedded-action>
+    <embedded-action>ffe40ce1-0e28-4318-b56f-ddc59748e743</embedded-action>
+    <embedded-action>512bbdd9-7c40-4e8f-9f61-c20ac7878d34</embedded-action>
+    <embedded-action>816a917e-a693-478c-bfa4-3a6176144554</embedded-action>
+    <embedded-action>d551be47-4866-43ea-8a16-d34965f87c6d</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_047d6e0e-6619-49dd-b47b-f1f6a2251c2b.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/config"
+    path="/platform/api/v3/config" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="2361"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="d6c59154-9469-4c23-b68a-6a31e1d02691" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6e11854d-59af-4289-b2bc-7c02c2f2ae95</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6e11854d-59af-4289-b2bc-7c02c2f2ae95.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi//views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:31 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, PUT, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, PUT, OPTIONS&#xd;
+Content-Length: 2361&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/config/site"
+    path="/platform/api/v3/config/site" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="565"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="54d9f770-31e7-4fac-a72f-895faecd509e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bbc1f683-55d9-4beb-9bf6-6871b862b085</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bbc1f683-55d9-4beb-9bf6-6871b862b085.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer iqhQNq5get10QQwoP087bQDRWOszHxjjdb1o6VcL"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:32 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, PUT, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, PUT, OPTIONS&#xd;
+Content-Length: 565&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/config/features"
+    path="/platform/api/v3/config/features" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="730"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="210979d6-302e-4d9c-b93f-1f7c0e75635b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_89caca8b-e1d6-4acb-962f-ab65b7b9fc9e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_89caca8b-e1d6-4acb-962f-ab65b7b9fc9e.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer ${OAUTH_Token_access_token_1}"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:32 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, PUT, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, PUT, OPTIONS&#xd;
+Content-Length: 730&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/config/features_1"
+    path="/platform/api/v3/config/features" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="730"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="60910a07-3957-43a6-9e53-737bdd06e2da" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a96bf359-cde8-433a-a822-cf4708ed9443</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a96bf359-cde8-433a-a822-cf4708ed9443.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer iqhQNq5get10QQwoP087bQDRWOszHxjjdb1o6VcL"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:32 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, PUT, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, PUT, OPTIONS&#xd;
+Content-Length: 730&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/wp-content/uploads/2017/03/Neotys-Emblem-Primary.png"
+    path="/wp-content/uploads/2017/03/Neotys-Emblem-Primary.png"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="d28h099uturm62.cloudfront.net" slaProfileEnabled="false"
+    uid="34cfac36-2217-43c2-9c21-44e35a49da23" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_34cfac36-2217-43c2-9c21-44e35a49da23.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bef028f6-fa69-46e5-8a8b-9a291fbeb9c6.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="d28h099uturm62.cloudfront.net"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 3166&#xd;
+Connection: keep-alive&#xd;
+Date: Wed, 16 Aug 2017 12:33:20 GMT&#xd;
+Server: Apache&#xd;
+Last-Modified: Wed, 19 Jul 2017 09:55:21 GMT&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=604800, public&#xd;
+Expires: Wed, 23 Aug 2017 12:33:20 GMT&#xd;
+Age: 98592&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 5954578e851092964f39f2f5f0596950.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: np2uv0uvgodH8pAroh5DKjBx0XHxJA9H_ziXdD3on2nXdJKI6Rv9LQ==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/roles"
+    path="/platform/api/v3/roles" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="1098"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="8e9eb826-7bf7-4083-81aa-34b85783c9ef" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9fd42d00-1a95-4e74-8c4a-954abf9f8108</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9fd42d00-1a95-4e74-8c4a-954abf9f8108.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer ${OAUTH_Token_access_token_1}"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:32 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 1098&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/posts/stats"
+    path="/platform/api/v3/posts/stats" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="499"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="c3873318-adcf-492b-b53e-3d1ee57f0d03" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_81c80043-3346-4015-b6db-f9c3329ce9e1</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_81c80043-3346-4015-b6db-f9c3329ce9e1.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="group_by"
+        recordRawValue="form" separator="=" value="form" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="desc" separator="=" value="desc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="post_date" separator="=" value="post_date" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="status"
+        recordRawValue="all" separator="=" value="all" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer ${OAUTH_Token_access_token_1}"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:32 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 499&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/config/map"
+    path="/platform/api/v3/config/map" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="411"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="86926a04-ccd8-4895-bbda-f24786f29d0f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a64c0a84-f24c-4b5f-b7bb-e1c9897665c1</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a64c0a84-f24c-4b5f-b7bb-e1c9897665c1.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer iqhQNq5get10QQwoP087bQDRWOszHxjjdb1o6VcL"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:32 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, PUT, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, PUT, OPTIONS&#xd;
+Content-Length: 411&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/posts/geojson"
+    path="/platform/api/v3/posts/geojson" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="133306"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="ca44a2b9-7bbb-4bc0-9647-d2d0f7cfd47d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_30156e31-75de-4783-a08f-26468914bddf</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_30156e31-75de-4783-a08f-26468914bddf.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="form[]"
+        recordRawValue="2" separator="=" value="2" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="form[]"
+        recordRawValue="4" separator="=" value="4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="desc" separator="=" value="desc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="post_date" separator="=" value="post_date" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="status[]"
+        recordRawValue="published" separator="=" value="published" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="status[]"
+        recordRawValue="draft" separator="=" value="draft" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer ${OAUTH_Token_access_token_1}"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:32 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, OPTIONS&#xd;
+Transfer-Encoding: chunked&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/savedsearches"
+    path="/platform/api/v3/savedsearches" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="382"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="8e10c361-9595-4a0f-b5da-b70867304835" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6e661b6f-1099-4ec4-b39a-3f1df16d07d2</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6e661b6f-1099-4ec4-b39a-3f1df16d07d2.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer ${OAUTH_Token_access_token_1}"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:32 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 382&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;94daa48500151d1ff60a6a7500058092&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/1/0.png"
+    path="/v4/mapbox.streets/2/1/0.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="155124cf-375c-4dcc-8474-e12ae5e596af" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_155124cf-375c-4dcc-8474-e12ae5e596af.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b58f537c-3165-4516-a6ce-6275b490744f.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 10789&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 26 Sep 2017 12:04:24 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506427524&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "94daa48500151d1ff60a6a7500058092"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 96c175ce63da79b249fc4597809077cc.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: VL-IkmQWOGhlsvCnH7-6nmunqqeNsdDa2jSHxvRfrPvKomR9Xhkh2Q==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;8c617ac3c7b14c8d0bda690b0da71c8b&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/0/3.png"
+    path="/v4/mapbox.streets/2/0/3.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="039744e9-3076-45b3-9cd6-b8b32b78a140" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_039744e9-3076-45b3-9cd6-b8b32b78a140.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8b44b444-2202-4653-8cc5-ff1917c097c3.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 1723&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 28 Sep 2017 08:09:51 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506586251&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "8c617ac3c7b14c8d0bda690b0da71c8b"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 96c175ce63da79b249fc4597809077cc.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: gTABQ1M7dd-7Jik_nMpO854IOY1W6dMriyw70BZX7vr4ZAcuhpmkbg==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;c094ff1144ef1e246ea0cb17fb49c49e&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/3/0.png"
+    path="/v4/mapbox.streets/2/3/0.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="908f387c-0241-4fd7-b169-9815e1b4f04d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_908f387c-0241-4fd7-b169-9815e1b4f04d.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_475933c6-dfa5-4810-99d9-019dc71933ec.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 4832&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 26 Sep 2017 12:04:25 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506427525&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:04 GMT&#xd;
+ETag: "c094ff1144ef1e246ea0cb17fb49c49e"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 029f15a661be82d29f31e88713b71d65.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: TaaX7qRToR7k4mBwPEf72SK_rlwpkCoBKnqzLi4M_fiQ_LUEfLNTgw==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;69b17d7b1e59b67705f8ed7794b369f7&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/1/3.png"
+    path="/v4/mapbox.streets/2/1/3.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="01554a06-3bb7-4ca5-bafb-0ac98f97e719" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_01554a06-3bb7-4ca5-bafb-0ac98f97e719.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_38463102-9166-482a-b672-11ffb153e659.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 2147&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 28 Sep 2017 08:09:51 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506586251&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "69b17d7b1e59b67705f8ed7794b369f7"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 f794b89ac7b5d3a7a6b25a236579db6c.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: yHuPh0n34QP8NnarH0bi_VeXxB7jS67Ur9v1OsKz9cWhrAk8c7P_9Q==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;1c445f10273900a9cd97b1ab6672bab8&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/2/0.png"
+    path="/v4/mapbox.streets/2/2/0.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="983aa4e9-d0a1-4de8-8d4b-35a86cf9f590" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_983aa4e9-d0a1-4de8-8d4b-35a86cf9f590.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9cce5a69-035a-4382-8dce-a06efe1bde84.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 8411&#xd;
+Connection: keep-alive&#xd;
+Date: Mon, 14 Aug 2017 15:28:50 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502724590&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "1c445f10273900a9cd97b1ab6672bab8"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 761f19bc2f5721b0be0a41147e1e925f.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: DvB8VF5WbJor8H_Fhct3BPki-Hk5u8oeM63dJOXYbuILCUXtMEw4BQ==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;9c9d1ad342901bf6c674b7d01ba6be7d&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/0/2.png"
+    path="/v4/mapbox.streets/2/0/2.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="bce9f751-29f3-4352-ae3a-8baefcb45bed" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bce9f751-29f3-4352-ae3a-8baefcb45bed.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b4fb6eef-2dfb-438f-9a40-f7795bbc5586.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 931&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 26 Sep 2017 12:04:25 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506427525&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "9c9d1ad342901bf6c674b7d01ba6be7d"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 96c175ce63da79b249fc4597809077cc.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: ufpcQNCUdzd2l2tj9nrUudIf4KPPzCVyVdLFWcPQlBAzzne-GU0nfg==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;a4150fd0049c33d54673e2f5b15acb14&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/2/3.png"
+    path="/v4/mapbox.streets/2/2/3.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="6aaaf8cb-04b1-472f-8abe-ec6f587b5eea" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6aaaf8cb-04b1-472f-8abe-ec6f587b5eea.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fd0a8090-954c-49b6-b3cc-404fe1a5edf3.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 1284&#xd;
+Connection: keep-alive&#xd;
+Date: Fri, 18 Aug 2017 12:57:04 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1503061084&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:06 GMT&#xd;
+ETag: "a4150fd0049c33d54673e2f5b15acb14"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 029f15a661be82d29f31e88713b71d65.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: SGs1ipPXfEbww6-ANbb2gHMKITGc-C0r0LyQp-HxyyMqKIXMNnYVMw==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;8da61861c7af5a0fc309e75c805e54da&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/0/1.png"
+    path="/v4/mapbox.streets/2/0/1.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="ba57daee-a384-4b5e-9398-65dc5dc2a511" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ba57daee-a384-4b5e-9398-65dc5dc2a511.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0405152f-4e20-4d06-9d00-c3d4b9b475e2.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 12482&#xd;
+Connection: keep-alive&#xd;
+Date: Wed, 16 Aug 2017 04:47:49 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502858929&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "8da61861c7af5a0fc309e75c805e54da"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 f794b89ac7b5d3a7a6b25a236579db6c.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: CGkP5NAKcTZAo_JJEsPTG5uUqWWVyM9f-cRxPXDLEfEHpWXEFPodJg==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;94546652f4a8985e80ce5169628e0fe1&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/0/0.png"
+    path="/v4/mapbox.streets/2/0/0.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="731856a1-2a2b-4fd5-94ab-1762bcf068e5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_731856a1-2a2b-4fd5-94ab-1762bcf068e5.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_42463762-5f18-4b98-b7b1-92f2db805e30.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 7716&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 17 Aug 2017 07:36:08 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502955428&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "94546652f4a8985e80ce5169628e0fe1"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 761f19bc2f5721b0be0a41147e1e925f.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: __K6pi6eWgA3E6EsTcCPaqI0oSB-K7X8yXs3uAOM7lVvKisVnWfC2g==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;6c8162c9bc18db7bbb4c35ef2ef53312&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/3/3.png"
+    path="/v4/mapbox.streets/2/3/3.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="2cc96f3e-e8ec-4381-b5c3-644a288bb4a2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2cc96f3e-e8ec-4381-b5c3-644a288bb4a2.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_30a81c21-e481-4df2-986c-e9914d664d13.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 2541&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 15 Aug 2017 13:01:59 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502802179&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:06 GMT&#xd;
+ETag: "6c8162c9bc18db7bbb4c35ef2ef53312"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 96c175ce63da79b249fc4597809077cc.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: q0bsSEygPllg859VsvhSyGm0zCGETb_zeI8QXIRnya-KVeik1A_9eQ==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;14ac63046b5fa043cbecef700d689245&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/2/1.png"
+    path="/v4/mapbox.streets/2/2/1.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="d69a32e1-cf0b-4d3a-9111-bd6f923200db" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d69a32e1-cf0b-4d3a-9111-bd6f923200db.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3197349e-1a40-439d-8990-ba0ae48af5e9.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 22386&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 15 Aug 2017 15:33:56 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502811296&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:06 GMT&#xd;
+ETag: "14ac63046b5fa043cbecef700d689245"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 017ee4b2e5ba6b7a7dd1443f39b6e832.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: Ge2oCxninTPj3BvlC2d-5YjFkHins1fvvnN7PWcoVUv8mikNfAH20Q==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;dde09f9c47ede98c6ce5c361b58626cd&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/2/2.png"
+    path="/v4/mapbox.streets/2/2/2.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="b76ee270-1d53-478a-82d6-5549bcb14f89" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b76ee270-1d53-478a-82d6-5549bcb14f89.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_28bed9bc-3b57-4fa0-88f5-a6e4059af8ce.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 5229&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 26 Sep 2017 12:04:25 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506427525&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:06 GMT&#xd;
+ETag: "dde09f9c47ede98c6ce5c361b58626cd"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 96c175ce63da79b249fc4597809077cc.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: u1If6Qs94wXqLWr8-mg3mQTRM4UrCh_7_vDsI7GvaUjPzBtidDadIA==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;381596856c2257cb4f8b28f40b9090cb&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/1/1.png"
+    path="/v4/mapbox.streets/2/1/1.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="ffe40ce1-0e28-4318-b56f-ddc59748e743" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ffe40ce1-0e28-4318-b56f-ddc59748e743.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8e95ca57-ce85-4ca2-a9fb-f2619bf75d94.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 12440&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 15 Aug 2017 13:01:59 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502802179&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "381596856c2257cb4f8b28f40b9090cb"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 aac86dd0bb06b97ef178f97d0c65ee5f.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: scfg_rW3xytIg52LCdixSHqwa2PNF76ju_wXozaPns0wO66cX8DCVA==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;0e66030b4390f29d35a0e9edade73987&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/3/1.png"
+    path="/v4/mapbox.streets/2/3/1.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="512bbdd9-7c40-4e8f-9f61-c20ac7878d34" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_512bbdd9-7c40-4e8f-9f61-c20ac7878d34.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9cde9534-2486-41d7-b617-9ddb8207546c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 13342&#xd;
+Connection: keep-alive&#xd;
+Date: Wed, 16 Aug 2017 04:47:51 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502858931&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "0e66030b4390f29d35a0e9edade73987"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 aac86dd0bb06b97ef178f97d0c65ee5f.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: q7o275A83FQEoslQkm_-iyHucrcL6Ud2ajwyn20L7nJ2z7udhCAfqw==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;e25e52d875651c8fd2cc41e006ff9dc3&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/1/2.png"
+    path="/v4/mapbox.streets/2/1/2.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="816a917e-a693-478c-bfa4-3a6176144554" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_816a917e-a693-478c-bfa4-3a6176144554.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a4276b28-5566-44d5-b22e-664f77bee5f8.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 7698&#xd;
+Connection: keep-alive&#xd;
+Date: Wed, 16 Aug 2017 04:47:51 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502858931&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "e25e52d875651c8fd2cc41e006ff9dc3"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 8&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 029f15a661be82d29f31e88713b71d65.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: dVWpLku8a4sKHh4MQ3IXqN9BPtLZphdMlDwvGk-QazyBeZIzJuMG3Q==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;f357da6927af8920e4268ebf7991073c&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/3/2.png"
+    path="/v4/mapbox.streets/2/3/2.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/86ba338d-384a-42d7-94af-8212c636ad7d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="d551be47-4866-43ea-8a16-d34965f87c6d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d551be47-4866-43ea-8a16-d34965f87c6d.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d6d5f0e0-86f7-4eed-9fab-d543c0bcf388.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 5606&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 17 Aug 2017 12:08:54 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502971794&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:06 GMT&#xd;
+ETag: "f357da6927af8920e4268ebf7991073c"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+Age: 9&#xd;
+X-Cache: Hit from cloudfront&#xd;
+Via: 1.1 761f19bc2f5721b0be0a41147e1e925f.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: wVH2fGI_isko4L6fxnYj08z2ZyOt1IFIdVQ02gxF6_eKAr8kQEGnPg==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

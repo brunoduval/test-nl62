@@ -1,0 +1,790 @@
+<scenario postMonitoringTime="-1" preMonitoringTime="-1"
+    slaProfileEnabled="false" uid="post" virtualUsersStates="true">
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="Post">
+        <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
+        <volume-policy-entry>
+            <rampup-volume-policy delayIncrement="30.0"
+                delayTypeIncrement="1" initialUserNumber="5"
+                iterationNumber="1" maxUserNumber="25" userIncrement="5"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="30000" vuStartMode="1"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts>
+            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
+        </lg-hosts>
+    </population-policy>
+    <dashboards defaultDashboardUid="Graph board"/>
+    <!--****** DASHBOARDS  ******-->
+    <charts-model-description name="Graph board">
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="User Load and Error Rate" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="UserLoad" monitoredHostName="NeoLoad"
+                scale="1.0" selected="false"/>
+            <action-curve-description
+                actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+                color="200,0,0" dashed="false" populationName=""
+                scale="1.0" selected="false"
+                statisticName="result.errors" zoneName=""/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Overall Throughput" typeName="CLASSIC">
+            <monitor-curve-description color="42,89,26"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="throughput" monitoredHostName="NeoLoad"
+                scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Load Generators CPU usage" typeName="CLASSIC">
+            <monitor-curve-description color="0,255,0"
+                connectionName="NeoLoad" dashed="false"
+                monitorName="lgcpu.localhost:7100"
+                monitoredHostName="LG localhost:7100" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="Docker as example/json" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['load_average']:6373d68094416a0f6c488a6c6b10e105a871c60b"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['total']:44ad75f1b717d6073c99c0bea95865a1c6129d9c"
+                monitoredHostName="Docker as example" scale="1.0E-10" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['user']:be6027b90cda7a29b362b4e37cf3680c17216294"
+                monitoredHostName="Docker as example" scale="1.0E-10" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['system']:0a6be64b716f9b700b27ba0b857eb3ec61a05b74"
+                monitoredHostName="Docker as example" scale="1.0E-9" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['per_cpu_usage'][0]:c2d389ac1585ad4407d567070307d09beca29205"
+                monitoredHostName="Docker as example" scale="1.0E-10" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['per_cpu_usage'][1]:8956d8ccb1b0a3557507333222eefafda1c1b24c"
+                monitoredHostName="Docker as example" scale="1.0E-10" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['periods']:c9284cb9cf747f651f787b01d053890463589ebf"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['throttled_periods']:b46d096aeec11687cf1d53cc2265f7e687609949"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['throttled_time']:578313230fa59c0618d73407903af8e0014ff6a2"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['major']:d02b433a8c7cd6702d6e896879bd3d2100481b74"
+                monitoredHostName="Docker as example" scale="0.1" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['minor']:a3c0ccf281115f5b0983086b07293678b94a934c"
+                monitoredHostName="Docker as example" scale="0.001" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Async']:803ae206528cd5f3abd21a195396d3c7a2b7cdd1"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Read']:78ea876b71999ace34d5b1cd487a294e99d5ba24"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Sync']:c94b9cbb3fd51e0d83a3b37f487d545553f808d8"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Total']:ca1ed30fa9d4f82b7ae8ceea160e39341456bf16"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][0]['stats']['Write']:461ba4275bd8813caaf5b9c67752a2c83753a86a"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['major']:feaf84c3e3f60485b3a8fe679458ab19633154cc"
+                monitoredHostName="Docker as example" scale="0.1" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['minor']:9babda13df46b4d5ff9018a43085c2f23b217b94"
+                monitoredHostName="Docker as example" scale="0.001" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Async']:fc33cd25e7a7094bbd2adfb672d877a2eb211aee"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Read']:ceac8c055fa5b07e1f3e1dffd5129250dc57d572"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="26,255,255"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Sync']:3b2893af7596cbe4c678c541eded86316f468b2a"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="192,192,192"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Total']:14eefae2d777c081614087206a5c814a93dde77c"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="11,59,114"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][1]['stats']['Write']:f2c97d55c3997e521ec44173d42f1f65df371e24"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="49,102,30"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['major']:e9471a3d57ad4713485abaab505d6355ecd4d2a4"
+                monitoredHostName="Docker as example" scale="0.1" selected="false"/>
+            <monitor-curve-description color="137,134,0"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['minor']:3ce404613859021f6acf9075da115f4dfc7f7f68"
+                monitoredHostName="Docker as example" scale="0.001" selected="false"/>
+            <monitor-curve-description color="107,0,105"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Async']:637639150c9b5ac2bb3e01b1412a6f245c5bf113"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="11,117,117"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Read']:2a97ad04eb7c14973abb77426cb48b231451a53f"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="132,85,12"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Sync']:3f291bb20801d5bb98175424455ed391f613a32f"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="34,188,255"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Total']:fa902391079fcb0efa83f2cd664f1a399239f99e"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="156,255,97"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][2]['stats']['Write']:164af5bb1aedbac5c49255addf1ba768f56f258a"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="255,0,255"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['major']:b3d8102606f250c8c399e0955fc5b382b6d32f3b"
+                monitoredHostName="Docker as example" scale="0.1" selected="false"/>
+            <monitor-curve-description color="34,255,255"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['minor']:e743d42cc19bd52ab94f549d5a92623b5181a797"
+                monitoredHostName="Docker as example" scale="0.001" selected="false"/>
+            <monitor-curve-description color="254,234,206"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Async']:35f6dc0503133281572a9e63d04078e1fe967358"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="10,244,29"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Read']:8523a529c6dccae3af90672f231e39df4b18ff23"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="134,96,9"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Sync']:450f87211fc4c5b6833a7f01dca567d217924ebf"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="9,80,232"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Total']:a34f20fae80bec16c2f89bffe4cd7611534deb65"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="119,2,197"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_service_bytes'][3]['stats']['Write']:66ff46de6e34fbe011bd7719b66f9ca2210364fc"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="189,77,125"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['major']:05d4b9f26a6759d1899d08aa9d9acd06fa547b2a"
+                monitoredHostName="Docker as example" scale="0.1" selected="false"/>
+            <monitor-curve-description color="60,140,104"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['minor']:d94d897e25344e59fa9926e939273ca0343f96db"
+                monitoredHostName="Docker as example" scale="0.001" selected="false"/>
+            <monitor-curve-description color="85,235,225"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Async']:7b93294446bed657dcbca55f9411852698ef31e9"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="183,144,173"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Read']:3dade7981caca175ff446b3c4969f79c5cb2fb27"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="233,52,218"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Sync']:be2be194ffde2baead0edf1cd530c4cc96295176"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="144,46,173"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Total']:44469c7670b93c6ce231d6083a1cebbac65deaa2"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="97,199,115"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][0]['stats']['Write']:698926dc7537968b4267c8a876714c8c315644e8"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="166,152,118"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['major']:104ecb2b4823e045fcc51f5e70996f31bf98e852"
+                monitoredHostName="Docker as example" scale="0.1" selected="false"/>
+            <monitor-curve-description color="200,166,188"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['minor']:ee9d4a8756d1b282c5b704bebed65426e2743ba8"
+                monitoredHostName="Docker as example" scale="0.001" selected="false"/>
+            <monitor-curve-description color="216,104,244"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Async']:a8fc0355ef2a58f33a56fdfbbf2b68a4c917146d"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="35,175,58"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Read']:23b6e5f74eac7b4690ad560a5909e19424825f16"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="229,36,68"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Sync']:a7622d6f8e35db2dfcadad1af4984c55cd85a9bd"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="249,96,244"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Total']:1c15576d197a9e582ff43a649644707320dda787"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="187,188,6"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][1]['stats']['Write']:134602d851a361a211211d43d7c9a04fc30e3dcf"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="127,31,70"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['major']:7feeeb856293728f90226a4d558a12b521353596"
+                monitoredHostName="Docker as example" scale="0.1" selected="false"/>
+            <monitor-curve-description color="230,188,80"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['minor']:79b7530ffa41ab0333fcf2add848a70da368f805"
+                monitoredHostName="Docker as example" scale="0.001" selected="false"/>
+            <monitor-curve-description color="235,172,189"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Async']:1c314434381bbc2ba28d115a2afe46d8fde7b31a"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="252,53,82"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Read']:308c608cdc70af9ecce2863b2ad7af4b695f8967"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="134,39,95"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Sync']:bd0f0f20d1b8d0be2fba904d5e88579751342dde"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="218,140,218"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Total']:445148705288df1e51719856814661f2650e6c99"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="94,213,57"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][2]['stats']['Write']:0af3e56dd13e236cdf2b23ef0ad65ebeef97ab91"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,143,100"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['major']:1e2b80e55a5a639524aebebccee6b0da3460daf6"
+                monitoredHostName="Docker as example" scale="0.1" selected="false"/>
+            <monitor-curve-description color="209,250,112"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['minor']:79c6a755d7d64454bedb040ffbbc319bb3602235"
+                monitoredHostName="Docker as example" scale="0.001" selected="false"/>
+            <monitor-curve-description color="191,104,76"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Async']:e8d7582cc25fb2ef3fb48cf27e6fdf911739069c"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="95,193,194"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Read']:d82eb836994ed489f94860f917106cf7ed34cd2f"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="78,14,215"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Sync']:188e8d8bf5a668bcd77aa3ccf261684ec0105ec4"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="125,198,193"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Total']:e9bb03c7dde679b156e4dff5f4bb88eeb102292b"
+                monitoredHostName="Docker as example" scale="0.01" selected="false"/>
+            <monitor-curve-description color="161,65,212"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['diskio']['io_serviced'][3]['stats']['Write']:8493900f3832856e2a13b8d4a773869a995b1c96"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="18,206,20"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['usage']:b59f820c02555b50889aae31dbd1c09bff235f13"
+                monitoredHostName="Docker as example" scale="1.0E-7" selected="false"/>
+            <monitor-curve-description color="234,104,87"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['cache']:faea09d6515a4664d157939b89a70fc0c468a2c9"
+                monitoredHostName="Docker as example" scale="1.0E-6" selected="false"/>
+            <monitor-curve-description color="127,175,53"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['rss']:14ef55d891a9b66d36129120ccc49d0bb90ddfa4"
+                monitoredHostName="Docker as example" scale="1.0E-7" selected="false"/>
+            <monitor-curve-description color="240,47,49"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['swap']:0e8219e1977557587c8ab32ba32eb9d7926fb5f5"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="243,90,222"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['working_set']:8208f7e1b45f1a838ebb08165b68f266c00e8d4c"
+                monitoredHostName="Docker as example" scale="1.0E-7" selected="false"/>
+            <monitor-curve-description color="81,13,207"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['failcnt']:4f2d176a1e51a038bf87a3d89c860e05214e9101"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="27,22,175"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['container_data']['pgfault']:6fef8d735f05f62c129f5f8a25ca49601fee1977"
+                monitoredHostName="Docker as example" scale="1.0E-5" selected="false"/>
+            <monitor-curve-description color="131,103,136"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['container_data']['pgmajfault']:7d190b0596da020ec6a7210ed0423bd9a5ae98f1"
+                monitoredHostName="Docker as example" scale="0.1" selected="false"/>
+            <monitor-curve-description color="101,210,95"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['hierarchical_data']['pgfault']:3311c94e65ce908edd8a05ea454d6db7c025b956"
+                monitoredHostName="Docker as example" scale="1.0E-5" selected="false"/>
+            <monitor-curve-description color="76,137,19"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['memory']['hierarchical_data']['pgmajfault']:c7fd2bfc376e3d0818713d3aa737e9f960774883"
+                monitoredHostName="Docker as example" scale="0.1" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true" title="mysql-ushahidi/mysql" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="IO Requests/ bytes received"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="IO Requests/ bytes sent"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="mysql" dashed="false"
+                monitorName="IO Requests/ open files"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random next"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key reads (disk)"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key writes (disk)"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler rollback"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler savepoint rollback"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ query cache free blocks"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ query cache free memory"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ query cache hits"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ query cache inserts"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ query cache low memory prunes"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,255,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ not cached queries"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="192,192,192"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ cached queries"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="11,59,114"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ total blocks"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="49,102,30"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ open tables"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="137,134,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ opened tables"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="107,0,105"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks immediate"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="11,117,117"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks waited"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="132,85,12"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table open cache"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="34,188,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ max heap table size"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="156,255,97"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ % key buffer size"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="255,0,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow queries"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="34,255,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ long query time"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="59,104,72"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch threads"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="162,164,253"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch time"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="209,185,196"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort merge passes"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="165,201,171"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort range"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="52,101,25"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort rows"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,77,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort scan"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="144,78,214"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ not flushed delayed rows"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="Docker as example/json/root//docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267/0/cpu/load_average" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['load_average']:6373d68094416a0f6c488a6c6b10e105a871c60b"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['total']:44ad75f1b717d6073c99c0bea95865a1c6129d9c"
+                monitoredHostName="Docker as example" scale="1.0E-10" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['user']:be6027b90cda7a29b362b4e37cf3680c17216294"
+                monitoredHostName="Docker as example" scale="1.0E-10" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['system']:0a6be64b716f9b700b27ba0b857eb3ec61a05b74"
+                monitoredHostName="Docker as example" scale="1.0E-9" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['per_cpu_usage'][0]:c2d389ac1585ad4407d567070307d09beca29205"
+                monitoredHostName="Docker as example" scale="1.0E-10" selected="true"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['usage']['per_cpu_usage'][1]:8956d8ccb1b0a3557507333222eefafda1c1b24c"
+                monitoredHostName="Docker as example" scale="1.0E-10" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['periods']:c9284cb9cf747f651f787b01d053890463589ebf"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['throttled_periods']:b46d096aeec11687cf1d53cc2265f7e687609949"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="json" dashed="false"
+                monitorName="$['/docker/2eb3259b3f118a2eb5738114feebf64bfd86e99af7cc396122aaa9552e4b9267'][0]['cpu']['cfs']['throttled_time']:578313230fa59c0618d73407903af8e0014ff6a2"
+                monitoredHostName="Docker as example" scale="1.0" selected="false"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="mysql-ushahidi/mysql/Connections/threads connected" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="true"/>
+        </chart-description>
+        <chart-description autoRange="true"
+            chart-description-type="chart-description-type"
+            domainMarkerVisible="true" granularityLevel="0"
+            historyState="XMIN" includeInReport="false"
+            rangeMarkerVisible="true"
+            title="mysql-ushahidi/mysql/Connections/threads connected" typeName="CLASSIC">
+            <monitor-curve-description color="20,106,203"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ threads connected"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="88,183,55"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted clients"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="200,0,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ aborted connects"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="191,0,189"
+                connectionName="mysql" dashed="false"
+                monitorName="Connections/ max used"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="20,210,210"
+                connectionName="mysql" dashed="false"
+                monitorName="IO Requests/ bytes received"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="223,143,143"
+                connectionName="mysql" dashed="false"
+                monitorName="IO Requests/ bytes sent"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="236,153,22"
+                connectionName="mysql" dashed="false"
+                monitorName="IO Requests/ open files"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,128,128"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select full join"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="244,239,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Select Rates/ select range check"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,79,152"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="66,137,41"
+                connectionName="mysql" dashed="false"
+                monitorName="Read Rates/ handler read random next"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key reads (disk)"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="143,0,141"
+                connectionName="mysql" dashed="false"
+                monitorName="Key Rates/ key writes (disk)"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="15,157,157"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler rollback"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="177,114,16"
+                connectionName="mysql" dashed="false"
+                monitorName="Commands Rates/ handler savepoint rollback"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="183,179,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ query cache free blocks"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="64,64,64"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ query cache free memory"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,141,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ query cache hits"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="117,244,73"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ query cache inserts"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="254,0,252"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ query cache low memory prunes"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="26,255,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ not cached queries"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="192,192,192"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ cached queries"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="11,59,114"
+                connectionName="mysql" dashed="false"
+                monitorName="Query Cache/ total blocks"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="49,102,30"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ open tables"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="137,134,0"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ opened tables"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="107,0,105"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks immediate"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="11,117,117"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table locks waited"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="132,85,12"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ table open cache"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="34,188,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Tables/ max heap table size"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="156,255,97"
+                connectionName="mysql" dashed="false"
+                monitorName="Memory/ % key buffer size"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="255,0,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow queries"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="34,255,255"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ long query time"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="175,65,164"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch threads"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="74,101,12"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ slow launch time"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="107,117,113"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort merge passes"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="127,139,229"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort range"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="82,75,207"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort rows"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="108,53,237"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ sort scan"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="false"/>
+            <monitor-curve-description color="128,222,196"
+                connectionName="mysql" dashed="false"
+                monitorName="Misc./ not flushed delayed rows"
+                monitoredHostName="mysql-ushahidi" scale="1.0" selected="true"/>
+        </chart-description>
+    </charts-model-description>
+    <!--****** END DASHBOARDS  ******-->
+    <!--****** START DATA FILTERS  ******-->
+    <!--****** END DATA FILTERS  ******-->
+    <!--****** START RENDEZ-VOUS POLICIES  ******-->
+    <!--****** END RENDEZ-VOUS POLICIES  ******-->
+    <!--****** START DEBUG POLICY ******-->
+    <debug-policy mode="0"/>
+    <!--****** END DEBUG POLICY ******-->
+    <!--****** START VU STATES ******-->
+    <!--****** END VU STATES ******-->
+    <request-path-exclusion-filter isEnabled="false">
+        <regexps>
+            <regexp>.*\.jpg</regexp>
+            <regexp>.*\.jpeg</regexp>
+            <regexp>.*\.gif</regexp>
+            <regexp>.*\.png</regexp>
+            <regexp>.*\.bmp</regexp>
+            <regexp>.*\.css</regexp>
+            <regexp>.*\.js</regexp>
+            <regexp>.*\.swf</regexp>
+            <regexp>.*\.ico</regexp>
+            <regexp>.*\.jar</regexp>
+            <regexp>.*\.class</regexp>
+            <regexp>.*\.properties</regexp>
+        </regexps>
+    </request-path-exclusion-filter>
+</scenario>

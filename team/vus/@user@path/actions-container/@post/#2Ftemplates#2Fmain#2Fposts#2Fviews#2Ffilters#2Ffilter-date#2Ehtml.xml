@@ -1,0 +1,199 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/views/filters/filter-date.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/df75cea0-1520-47c0-a91c-bbed9536d6c6.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="df75cea0-1520-47c0-a91c-bbed9536d6c6">
+    <embedded-action>55dc8c0a-f51a-4067-90d0-9131ffa63762</embedded-action>
+    <embedded-action>c23bb9b3-4e73-46d3-8de1-47c770aef681</embedded-action>
+    <embedded-action>67f0e4c0-8109-4b36-9415-61374706ee0d</embedded-action>
+    <embedded-action>2e08fd65-33a8-4372-8363-7a7c7361bc1e</embedded-action>
+    <embedded-action>cd73ffae-1fb6-4ae4-bc08-96b862053e5e</embedded-action>
+    <embedded-action>9c6f95ee-a5b3-498c-bf13-273c9561fa52</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/templates/main/posts/views/filters/filter-date.html"
+    path="/templates/main/posts/views/filters/filter-date.html"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/df75cea0-1520-47c0-a91c-bbed9536d6c6.zip"
+    recordedResponseCode="200" responseSize="1214"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="55dc8c0a-f51a-4067-90d0-9131ffa63762" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_55dc8c0a-f51a-4067-90d0-9131ffa63762.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_55dc8c0a-f51a-4067-90d0-9131ffa63762.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:21 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "4be-5418708f1ad80-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 395&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/icons/png/plus-2x.png"
+    path="/img/icons/png/plus-2x.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/df75cea0-1520-47c0-a91c-bbed9536d6c6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="c23bb9b3-4e73-46d3-8de1-47c770aef681" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c23bb9b3-4e73-46d3-8de1-47c770aef681.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c23bb9b3-4e73-46d3-8de1-47c770aef681.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:21 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:51 GMT&#xd;
+ETag: "8b-541870900efc0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 139&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/avatar/00000000000000000000000000000000"
+    path="/avatar/00000000000000000000000000000000" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/df75cea0-1520-47c0-a91c-bbed9536d6c6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="www.gravatar.com" slaProfileEnabled="false"
+    uid="67f0e4c0-8109-4b36-9415-61374706ee0d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_67f0e4c0-8109-4b36-9415-61374706ee0d.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_67f0e4c0-8109-4b36-9415-61374706ee0d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="d"
+        recordRawValue="retro" separator="=" value="retro" valueMode="USE_VALUE"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <header name="accept-language" value="en-US, en;q=0.8"/>
+    <header name="accept" value="image/webp, image/*, */*;q=0.8"/>
+    <header name="accept-encoding" value="gzip, deflate, sdch, br"/>
+    <header name="referer" value="http://ushahidi/views/map"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: nginx&#xd;
+date: Fri, 06 Oct 2017 13:34:22 GMT&#xd;
+content-type: image/png&#xd;
+content-length: 255&#xd;
+last-modified: Wed, 11 Jan 1984 08:00:00 GMT&#xd;
+link: &lt;https://www.gravatar.com/avatar/00000000000000000000000000000000?d=retro&gt;; rel="canonical"&#xd;
+access-control-allow-origin: *&#xd;
+x-nc: HIT fra 3&#xd;
+accept-ranges: bytes&#xd;
+expires: Fri, 06 Oct 2017 13:39:22 GMT&#xd;
+cache-control: max-age=300&#xd;
+source-age: 355301</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/savedsearches"
+    path="/platform/api/v3/savedsearches" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/df75cea0-1520-47c0-a91c-bbed9536d6c6.zip"
+    recordedResponseCode="200" responseSize="382"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="2e08fd65-33a8-4372-8363-7a7c7361bc1e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2e08fd65-33a8-4372-8363-7a7c7361bc1e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2e08fd65-33a8-4372-8363-7a7c7361bc1e.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer iqhQNq5get10QQwoP087bQDRWOszHxjjdb1o6VcL"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:22 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 382&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/fonts/Lato/fonts/LatoLatin-Medium.woff2"
+    path="/fonts/Lato/fonts/LatoLatin-Medium.woff2" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/df75cea0-1520-47c0-a91c-bbed9536d6c6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="cd73ffae-1fb6-4ae4-bc08-96b862053e5e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cd73ffae-1fb6-4ae4-bc08-96b862053e5e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cd73ffae-1fb6-4ae4-bc08-96b862053e5e.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Origin" value="http://ushahidi"/>
+    <header name="Referer" value="http://ushahidi/fonts/Lato/css/fonts.css"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:22 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "ab90-5418708f1ad80"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 43920</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/fonts/Lato/fonts/LatoLatin-MediumItalic.woff2"
+    path="/fonts/Lato/fonts/LatoLatin-MediumItalic.woff2" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/df75cea0-1520-47c0-a91c-bbed9536d6c6.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="9c6f95ee-a5b3-498c-bf13-273c9561fa52" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9c6f95ee-a5b3-498c-bf13-273c9561fa52</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9c6f95ee-a5b3-498c-bf13-273c9561fa52.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Origin" value="http://ushahidi"/>
+    <header name="Referer" value="http://ushahidi/fonts/Lato/css/fonts.css"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:22 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "afb8-5418708f1ad80"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 44984</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

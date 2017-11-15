@@ -1,0 +1,77 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/common/post-actions.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/d1040ae2-a90d-43fc-a8fd-3cfbb8b39a5b.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d1040ae2-a90d-43fc-a8fd-3cfbb8b39a5b">
+    <embedded-action>195ad313-8bb8-4663-8a16-aebacafe45ca</embedded-action>
+    <embedded-action>40aa0c67-91a0-467d-81f5-07d39e4db059</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/main/posts/common/post-actions.html"
+    path="/templates/main/posts/common/post-actions.html" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/d1040ae2-a90d-43fc-a8fd-3cfbb8b39a5b.zip"
+    recordedResponseCode="200" responseSize="3022"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="195ad313-8bb8-4663-8a16-aebacafe45ca" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_195ad313-8bb8-4663-8a16-aebacafe45ca.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_195ad313-8bb8-4663-8a16-aebacafe45ca.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/posts/199"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:30 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "bce-5418708f1ad80-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 756&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/posts/199/geojson"
+    path="/platform/api/v3/posts/199/geojson" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/d1040ae2-a90d-43fc-a8fd-3cfbb8b39a5b.zip"
+    recordedResponseCode="200" responseSize="572"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="40aa0c67-91a0-467d-81f5-07d39e4db059" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_40aa0c67-91a0-467d-81f5-07d39e4db059</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_40aa0c67-91a0-467d-81f5-07d39e4db059.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="desc" separator="=" value="desc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="post_date" separator="=" value="post_date" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Authorization" value="Bearer iqhQNq5get10QQwoP087bQDRWOszHxjjdb1o6VcL"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/posts/199"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:30 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.18&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, OPTIONS&#xd;
+Content-Length: 572&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

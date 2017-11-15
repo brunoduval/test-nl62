@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="HomePage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="SLA" uid="4decf036-ba02-4183-9574-57588c014717" weightsEnabled="false">
+    <weighted-embedded-action uid="a33561a6-66bb-46e2-a617-33eed897ee19"/>
+    <weighted-embedded-action uid="d0f45591-5118-4d28-b749-c9814afc6cb1"/>
+    <weighted-embedded-action uid="f59e18d5-176e-40a9-b4da-0946b7dc86ba"/>
+    <weighted-embedded-action uid="a908a2f9-62a9-46d4-a12c-6ae0ad29d93a"/>
+    <weighted-embedded-action uid="d8362ba4-3827-4789-9e24-171d29f55a1e"/>
+    <weighted-embedded-action uid="97e74edf-f4c6-4dd8-a13e-d85a3d18c33e"/>
+    <weighted-embedded-action uid="e64470f4-3a92-417c-b638-221e7aa44ac0"/>
+    <weighted-embedded-action uid="23389d94-571d-4d49-a37f-7e420578cfff"/>
+    <weighted-embedded-action uid="d1a4e260-a475-41d5-a0c9-d24b7837f8a6"/>
+    <weighted-embedded-action uid="4a1ef8bc-9b20-4f1a-b0b3-c179b9cb10d3"/>
+</basic-logical-action-container>

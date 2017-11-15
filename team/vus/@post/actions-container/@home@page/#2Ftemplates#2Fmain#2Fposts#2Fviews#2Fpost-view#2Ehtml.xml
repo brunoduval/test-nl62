@@ -1,0 +1,43 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/views/post-view.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/d1a4e260-a475-41d5-a0c9-d24b7837f8a6.zip"
+    slaProfileEnabled="true" slaProfileName="SLA" thinkTime="2"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d1a4e260-a475-41d5-a0c9-d24b7837f8a6">
+    <embedded-action>35c4539c-203a-4088-a8af-104fd4d11ee0</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9b809479-c9c5-48dd-88e8-a63f416d2c57.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;305-5418708f1ad80-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/main/posts/views/post-view.html"
+    path="/templates/main/posts/views/post-view.html" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/d1a4e260-a475-41d5-a0c9-d24b7837f8a6.zip"
+    recordedResponseCode="200" responseSize="773"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="35c4539c-203a-4088-a8af-104fd4d11ee0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_01833267-1cab-41da-90cd-6bd628711ef2.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_01833267-1cab-41da-90cd-6bd628711ef2.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:20 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "305-5418708f1ad80-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 282&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

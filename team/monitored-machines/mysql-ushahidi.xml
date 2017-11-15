@@ -1,0 +1,5 @@
+<monitored-host
+    host-name="ec2-18-194-167-154.eu-central-1.compute.amazonaws.com"
+    mehost-name="localhost" uid="mysql-ushahidi">
+    <embedded-action>4aa39c0f-26ee-4442-bf44-c2d23de1cd66</embedded-action>
+</monitored-host>

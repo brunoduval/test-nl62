@@ -1,0 +1,161 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/modify/post-tabs.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@post_old/%resources%/recorded-artifacts/59e10ce8-3f16-4c04-92e1-af3788973425.zip"
+    slaProfileEnabled="true" slaProfileName="SLA" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="59e10ce8-3f16-4c04-92e1-af3788973425">
+    <embedded-action>9b12d972-e8f6-42eb-ac6f-4b8a618ed24c</embedded-action>
+    <embedded-action>25970c7a-b5f9-45c7-a705-753316eb5e62</embedded-action>
+    <embedded-action>bd5645f5-3369-47dc-be28-f686d52c9dae</embedded-action>
+    <embedded-action>0ba6752f-f88f-420b-b1c3-c5534bcc572f</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_5396c833-e19d-4029-ad1b-91a63ba8f4b7.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;7dc-5418708f1ad80-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/main/posts/modify/post-tabs.html"
+    path="/templates/main/posts/modify/post-tabs.html" postType="1"
+    recordedArtifactZipFileName="team/vus/@post_old/%resources%/recorded-artifacts/59e10ce8-3f16-4c04-92e1-af3788973425.zip"
+    recordedResponseCode="200" responseSize="2012"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="9b12d972-e8f6-42eb-ac6f-4b8a618ed24c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4c32e0aa-2052-4c4f-9d9f-9c9177ec9541.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4c32e0aa-2052-4c4f-9d9f-9c9177ec9541.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="192.168.99.100"/>
+    <header name="Referer" value="http://192.168.99.100/posts/create/2"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36"/>
+    <header name="X-access-header" value="bG90dGVyeTpQQHNzdzByZDE="/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 14 Apr 2017 06:58:24 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "7dc-5418708f1ad80-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 740&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/forms/2/stages"
+    path="/platform/api/v3/forms/2/stages" postType="1"
+    recordedArtifactZipFileName="team/vus/@post_old/%resources%/recorded-artifacts/59e10ce8-3f16-4c04-92e1-af3788973425.zip"
+    recordedResponseCode="200" responseSize="837"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="25970c7a-b5f9-45c7-a705-753316eb5e62" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ec197a80-87fb-482d-ac1d-c8398d13c6f2</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ec197a80-87fb-482d-ac1d-c8398d13c6f2.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="asc" separator="=" value="asc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="priority" separator="=" value="priority" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Authorization" value="Bearer ${OAUTH_Token_access_token_1}"/>
+    <header name="Host" value="192.168.99.100"/>
+    <header name="Referer" value="http://192.168.99.100/posts/create/2"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36"/>
+    <header name="X-access-header" value="bG90dGVyeTpQQHNzdzByZDE="/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 14 Apr 2017 06:58:24 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.17&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 837&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/forms/2/attributes"
+    path="/platform/api/v3/forms/2/attributes" postType="1"
+    recordedArtifactZipFileName="team/vus/@post_old/%resources%/recorded-artifacts/59e10ce8-3f16-4c04-92e1-af3788973425.zip"
+    recordedResponseCode="200" responseSize="3721"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="bd5645f5-3369-47dc-be28-f686d52c9dae" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a347f75b-7c54-46f5-a6d9-f3c30c52bdac</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a347f75b-7c54-46f5-a6d9-f3c30c52bdac.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="-1" matchNumberAdv="-1" matchNumberSimple="1"
+        name="Keys-1" regExp="&quot;key&quot;: &quot;(.*?)&quot;"
+        regExpAdv="&quot;key&quot;: &quot;(.*?)&quot;"
+        setDefaultValue="true" startsWithSimple="" template="$1$"
+        templateAdv="$1$" uid="9bb64877-f421-4ed7-b5d8-9f03070abe6e" xpath=""/>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="asc" separator="=" value="asc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="priority" separator="=" value="priority" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Authorization" value="Bearer ${OAUTH_Token_access_token_1}"/>
+    <header name="Host" value="192.168.99.100"/>
+    <header name="Referer" value="http://192.168.99.100/posts/create/2"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36"/>
+    <header name="X-access-header" value="bG90dGVyeTpQQHNzdzByZDE="/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 14 Apr 2017 06:58:24 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+X-Powered-By: PHP/7.0.17&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 3721&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" eTag="&quot;b14c-5418708f1ad80&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:50 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/fonts/Lato/fonts/LatoLatin-Italic.woff2"
+    path="/fonts/Lato/fonts/LatoLatin-Italic.woff2" postType="1"
+    recordedArtifactZipFileName="team/vus/@post_old/%resources%/recorded-artifacts/59e10ce8-3f16-4c04-92e1-af3788973425.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="0ba6752f-f88f-420b-b1c3-c5534bcc572f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ed9519f2-5dcf-46d3-84f6-0ec6102b9bd6</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ed9519f2-5dcf-46d3-84f6-0ec6102b9bd6.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4"/>
+    <header name="Host" value="192.168.99.100"/>
+    <header name="Origin" value="http://192.168.99.100"/>
+    <header name="Referer" value="http://192.168.99.100/fonts/Lato/css/fonts.css"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36"/>
+    <header name="X-access-header" value="bG90dGVyeTpQQHNzdzByZDE="/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 14 Apr 2017 06:58:24 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:50 GMT&#xd;
+ETag: "b14c-5418708f1ad80"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 45388</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

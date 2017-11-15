@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Map" pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="true" slaProfileName="SLA"
+    uid="43475b2e-085c-4077-a490-6575eb49e21b" weightsEnabled="false">
+    <weighted-embedded-action uid="86ba338d-384a-42d7-94af-8212c636ad7d"/>
+</basic-logical-action-container>

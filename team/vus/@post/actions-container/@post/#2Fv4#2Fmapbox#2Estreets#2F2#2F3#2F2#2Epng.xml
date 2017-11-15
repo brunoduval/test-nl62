@@ -1,0 +1,760 @@
+<http-page executeResourcesDynamically="false"
+    name="/v4/mapbox.streets/2/3/2.png" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    slaProfileEnabled="false" thinkTime="2323"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="0b5b92c0-5950-4af2-916d-1449abcf5217">
+    <embedded-action>5f222497-fd2f-47af-968a-394c10b87f25</embedded-action>
+    <embedded-action>fa6d60e0-f13b-47b5-b1b4-b6f53ccb5c10</embedded-action>
+    <embedded-action>e194a657-723e-434e-8030-31e5e0b77f58</embedded-action>
+    <embedded-action>48c0ccb1-dafc-43df-b9b2-4ca009df44f6</embedded-action>
+    <embedded-action>c69a643a-6ca3-4988-a463-687477901e04</embedded-action>
+    <embedded-action>f1738e0e-16f3-4936-a928-268ff23278cf</embedded-action>
+    <embedded-action>ee39193c-78ea-4fa3-9a9f-fdf02df3d4d9</embedded-action>
+    <embedded-action>d9e207cd-cae2-491d-83e4-f8e2fe2a97eb</embedded-action>
+    <embedded-action>ce8303e8-4aa9-411b-8f34-5f570152ee03</embedded-action>
+    <embedded-action>96383879-d0a7-4ed0-9857-10a907ea966c</embedded-action>
+    <embedded-action>23903486-0f41-468f-8105-4d72dfac74c3</embedded-action>
+    <embedded-action>11bd48e1-fc0e-4528-bee0-a225b1a28784</embedded-action>
+    <embedded-action>0f802929-d06a-4423-a73d-3895f3007982</embedded-action>
+    <embedded-action>d04a98a3-fc95-4b51-afbd-a1cf24d25bf0</embedded-action>
+    <embedded-action>83dbae6e-f1c3-4224-8881-7ed0a05f86f4</embedded-action>
+    <embedded-action>a00f6bba-44a3-43b6-8816-5885045901f0</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_619c6ba9-312a-48ff-b055-1a5777c4ccf5.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;f357da6927af8920e4268ebf7991073c&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:06 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/3/2.png"
+    path="/v4/mapbox.streets/2/3/2.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="5f222497-fd2f-47af-968a-394c10b87f25" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5f222497-fd2f-47af-968a-394c10b87f25.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e65d5ada-7d32-47a7-8324-a01be0b1af3b.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 5606&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 17 Aug 2017 12:08:54 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502971794&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:06 GMT&#xd;
+ETag: "f357da6927af8920e4268ebf7991073c"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 c2890b1d84d781704a34b9aa5c069d4e.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: 90lJW3ShU4aNxEdYOIEICaJfwHszPEkSDZ1xaeKzxI1T3WEk-GTilw==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;c094ff1144ef1e246ea0cb17fb49c49e&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:04 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/3/0.png"
+    path="/v4/mapbox.streets/2/3/0.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="fa6d60e0-f13b-47b5-b1b4-b6f53ccb5c10" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fa6d60e0-f13b-47b5-b1b4-b6f53ccb5c10.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_54ef196d-067a-4058-952b-d6ad4ea8dd41.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 4832&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 26 Sep 2017 12:04:25 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506427525&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:04 GMT&#xd;
+ETag: "c094ff1144ef1e246ea0cb17fb49c49e"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 d6fa2e1de8f392301c10fd5bb7b263c3.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: RctCX8erjZfQMKL4tJtAoE59RxZTyt6v8vt5eyDRngi7JhGFZtGIeA==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;9c9d1ad342901bf6c674b7d01ba6be7d&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/0/2.png"
+    path="/v4/mapbox.streets/2/0/2.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="e194a657-723e-434e-8030-31e5e0b77f58" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e194a657-723e-434e-8030-31e5e0b77f58.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_748b14dd-7826-4920-b181-c47ee3aefa95.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 931&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 26 Sep 2017 12:04:25 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506427525&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "9c9d1ad342901bf6c674b7d01ba6be7d"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 7b48191d48ad0a2b3616c20acd7fbc1c.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: RqDLRC-vaDgWJ7KZTD_z_hhd6JxCwWhA9SOgxUFWODWadfLhy2RHag==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;94daa48500151d1ff60a6a7500058092&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/1/0.png"
+    path="/v4/mapbox.streets/2/1/0.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="48c0ccb1-dafc-43df-b9b2-4ca009df44f6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_48c0ccb1-dafc-43df-b9b2-4ca009df44f6.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_052880b6-a40b-4539-9991-7866ff2712a4.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 10789&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 26 Sep 2017 12:04:24 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506427524&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "94daa48500151d1ff60a6a7500058092"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 c2890b1d84d781704a34b9aa5c069d4e.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: Fh55vW3nKDR_Z0Yoy50k_St4_eIc18Kb6HpNUeepV67GUbLSe0pIBQ==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;8da61861c7af5a0fc309e75c805e54da&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/0/1.png"
+    path="/v4/mapbox.streets/2/0/1.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="c69a643a-6ca3-4988-a463-687477901e04" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c69a643a-6ca3-4988-a463-687477901e04.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3aa6723c-95fb-4dea-945c-8959c0f5e969.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 12482&#xd;
+Connection: keep-alive&#xd;
+Date: Wed, 16 Aug 2017 04:47:49 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502858929&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "8da61861c7af5a0fc309e75c805e54da"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 e89c67951b2bc58773e3664c08702f34.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: 27WY54IMn1V-xHQfgkK9VCcPi7_BQjfQ2v0ErPLX8XIvuvtISewhKQ==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;1c445f10273900a9cd97b1ab6672bab8&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/2/0.png"
+    path="/v4/mapbox.streets/2/2/0.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="f1738e0e-16f3-4936-a928-268ff23278cf" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f1738e0e-16f3-4936-a928-268ff23278cf.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4ee9e274-983d-42b1-b7f3-ef091b4fe55a.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 8411&#xd;
+Connection: keep-alive&#xd;
+Date: Mon, 14 Aug 2017 15:28:50 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502724590&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "1c445f10273900a9cd97b1ab6672bab8"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 cd103c18819ef0db201c8a8cb9162bd2.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: EXsFhrzVyxG-2eHHUqJSQcMX1Dq0bPhTaJVkvBCIdgc0_SdMPdb6Eg==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;69b17d7b1e59b67705f8ed7794b369f7&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/1/3.png"
+    path="/v4/mapbox.streets/2/1/3.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="ee39193c-78ea-4fa3-9a9f-fdf02df3d4d9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ee39193c-78ea-4fa3-9a9f-fdf02df3d4d9.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8a4b6d3f-2e63-47d4-9731-103a203c04a8.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 2147&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 28 Sep 2017 08:09:51 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506586251&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "69b17d7b1e59b67705f8ed7794b369f7"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 cd103c18819ef0db201c8a8cb9162bd2.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: QPiPDc05Z9QMdBktSUQDxDIZsMpVOZdJ-8JldPOrfTXdrBwLYw2UKw==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;a4150fd0049c33d54673e2f5b15acb14&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:06 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/2/3.png"
+    path="/v4/mapbox.streets/2/2/3.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="d9e207cd-cae2-491d-83e4-f8e2fe2a97eb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d9e207cd-cae2-491d-83e4-f8e2fe2a97eb.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_10cf0e8f-e821-4e62-9dfb-e2e461561a82.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 1284&#xd;
+Connection: keep-alive&#xd;
+Date: Fri, 18 Aug 2017 12:57:04 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1503061084&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:06 GMT&#xd;
+ETag: "a4150fd0049c33d54673e2f5b15acb14"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 c2890b1d84d781704a34b9aa5c069d4e.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: GwqncI45dfGCu5PtRazj_XsEAtRWtiUyZ1ms7ek1vMsUyP8-ospqNw==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;6c8162c9bc18db7bbb4c35ef2ef53312&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:06 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/3/3.png"
+    path="/v4/mapbox.streets/2/3/3.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="ce8303e8-4aa9-411b-8f34-5f570152ee03" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ce8303e8-4aa9-411b-8f34-5f570152ee03.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4c5841d5-0e83-41d1-9f51-0ee33c82f066.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 2541&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 15 Aug 2017 13:01:59 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502802179&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:06 GMT&#xd;
+ETag: "6c8162c9bc18db7bbb4c35ef2ef53312"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 e89c67951b2bc58773e3664c08702f34.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: UKNOJXVHJPnbkGVhSYUcshOt1DY-c5CmxHojsjIeAQCJJQpqnm8F-g==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;94546652f4a8985e80ce5169628e0fe1&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/0/0.png"
+    path="/v4/mapbox.streets/2/0/0.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="96383879-d0a7-4ed0-9857-10a907ea966c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_96383879-d0a7-4ed0-9857-10a907ea966c.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_71d385d4-cadc-4969-8db6-6fc31c968a8d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 7716&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 17 Aug 2017 07:36:08 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502955428&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "94546652f4a8985e80ce5169628e0fe1"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 cd103c18819ef0db201c8a8cb9162bd2.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: IWhxJO-09oK1-YP2H-GMWejz_dGOgsQYDIbTKWjdfOp6DTslJDr1Sg==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;14ac63046b5fa043cbecef700d689245&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:06 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/2/1.png"
+    path="/v4/mapbox.streets/2/2/1.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="23903486-0f41-468f-8105-4d72dfac74c3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_23903486-0f41-468f-8105-4d72dfac74c3.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1a68d441-1141-49a5-9fc7-bf283c79e704.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 22386&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 15 Aug 2017 15:33:56 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502811296&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:06 GMT&#xd;
+ETag: "14ac63046b5fa043cbecef700d689245"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 e89c67951b2bc58773e3664c08702f34.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: hwSOiXkMXbOYOJJ8hWtyIEnNxDZxMvp4bY1ZArumMszlZiDk1JH9EQ==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;381596856c2257cb4f8b28f40b9090cb&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/1/1.png"
+    path="/v4/mapbox.streets/2/1/1.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="11bd48e1-fc0e-4528-bee0-a225b1a28784" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_11bd48e1-fc0e-4528-bee0-a225b1a28784.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6d1f3621-9b5a-4138-b438-9a1dda56906d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 12440&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 15 Aug 2017 13:01:59 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502802179&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "381596856c2257cb4f8b28f40b9090cb"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 cd103c18819ef0db201c8a8cb9162bd2.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: 5Uci0f5wDSsH583ZKMdm3rfwHTh6BBY3H4CpcefPcmP2Unkfe5vSog==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;dde09f9c47ede98c6ce5c361b58626cd&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:06 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/2/2.png"
+    path="/v4/mapbox.streets/2/2/2.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="0f802929-d06a-4423-a73d-3895f3007982" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0f802929-d06a-4423-a73d-3895f3007982.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_12419c00-93e3-4905-8e15-eaebec56c7e9.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 5229&#xd;
+Connection: keep-alive&#xd;
+Date: Tue, 26 Sep 2017 12:04:25 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506427525&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:06 GMT&#xd;
+ETag: "dde09f9c47ede98c6ce5c361b58626cd"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 c2890b1d84d781704a34b9aa5c069d4e.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: t3IUneBGghCx-36YO1nKcPi9e3xuFMyzbGTJB0sV4nNXXjgXTh1Ltw==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;8c617ac3c7b14c8d0bda690b0da71c8b&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/0/3.png"
+    path="/v4/mapbox.streets/2/0/3.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="d04a98a3-fc95-4b51-afbd-a1cf24d25bf0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d04a98a3-fc95-4b51-afbd-a1cf24d25bf0.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_21c5e117-fb93-4c0b-a0bd-3dcad1e97c21.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 1723&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 28 Sep 2017 08:09:51 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1506586251&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "8c617ac3c7b14c8d0bda690b0da71c8b"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 d6fa2e1de8f392301c10fd5bb7b263c3.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: oplKYVlNHikdLP8FXtUOntmOVlOotY113kf0ydFuuxSof_HsEcqGjg==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;0e66030b4390f29d35a0e9edade73987&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/3/1.png"
+    path="/v4/mapbox.streets/2/3/1.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="83dbae6e-f1c3-4224-8881-7ed0a05f86f4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_83dbae6e-f1c3-4224-8881-7ed0a05f86f4.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7e4de5a8-ca39-443d-b391-1eb9e4264837.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 13342&#xd;
+Connection: keep-alive&#xd;
+Date: Wed, 16 Aug 2017 04:47:51 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502858931&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "0e66030b4390f29d35a0e9edade73987"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 7b48191d48ad0a2b3616c20acd7fbc1c.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: 2i69dU66yyO9CHgKffUcl7xgel6suC9vOuNVwGDoEAeiL1YiHlekoQ==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;e25e52d875651c8fd2cc41e006ff9dc3&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 01 Jun 2017 20:06:05 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/v4/mapbox.streets/2/1/2.png"
+    path="/v4/mapbox.streets/2/1/2.png" postType="1"
+    recordedArtifactZipFileName="team/vus/@post/%resources%/recorded-artifacts/0b5b92c0-5950-4af2-916d-1449abcf5217.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="api.tiles.mapbox.com" slaProfileEnabled="false"
+    uid="a00f6bba-44a3-43b6-8816-5885045901f0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a00f6bba-44a3-43b6-8816-5885045901f0.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fe9580f8-a51c-4c99-a432-026f90a399a4.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="access_token"
+        recordRawValue="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw"
+        separator="="
+        value="pk.eyJ1IjoidXNoYWhpZGkiLCJhIjoiY2lxaXUzeHBvMDdndmZ0bmVmOWoyMzN6NiJ9.CX56ZmZJv0aUsxvH5huJBw" valueMode="USE_VALUE"/>
+    <header name="Accept" value="image/webp,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch, br"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="api.tiles.mapbox.com"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 7698&#xd;
+Connection: keep-alive&#xd;
+Date: Wed, 16 Aug 2017 04:47:51 GMT&#xd;
+X-Powered-By: Express&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET&#xd;
+Timing-Allow-Origin: *&#xd;
+X-Rate-Limit-Limit: 100000&#xd;
+X-Rate-Limit-Interval: 60&#xd;
+X-Rate-Limit-Reset: 1502858931&#xd;
+Last-Modified: Thu, 01 Jun 2017 20:06:05 GMT&#xd;
+ETag: "e25e52d875651c8fd2cc41e006ff9dc3"&#xd;
+Cache-Control: max-age=43200,s-maxage=300&#xd;
+X-Cache: RefreshHit from cloudfront&#xd;
+Via: 1.1 cd103c18819ef0db201c8a8cb9162bd2.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Id: TRUtCZgCClKoeYTzhdgLIsH3FcztodhkwpevaSOkLEOAz8TowLeOsg==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

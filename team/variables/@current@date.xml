@@ -1,0 +1,3 @@
+<variable-currentdate inc-type="3" inc-value="1" name="CurrentDate" order="1" pattern="currentTimeMillis" policy="1" range="2" uid="141dc308-8ed9-4e79-8c00-28e0939029f9" whenOutOfValues="CYCLE_VALUES">
+<description>example: 2017-04-14T06:58:22.539Z</description>
+</variable-currentdate>
