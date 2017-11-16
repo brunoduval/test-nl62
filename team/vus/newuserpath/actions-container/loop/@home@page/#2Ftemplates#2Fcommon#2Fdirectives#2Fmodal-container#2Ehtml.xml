@@ -1,0 +1,43 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/common/directives/modal-container.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/newuserpath/%resources%/recorded-artifacts/bbee02d8-0a2d-4e4c-85ce-36987ef7d5b2.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="bbee02d8-0a2d-4e4c-85ce-36987ef7d5b2">
+    <embedded-action>cc360225-afd1-46c9-a576-860333da5ff1</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8148ef2a-a925-40f1-bfb7-9222453e98f6.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/templates/common/directives/modal-container.html"
+    path="/templates/common/directives/modal-container.html"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/newuserpath/%resources%/recorded-artifacts/bbee02d8-0a2d-4e4c-85ce-36987ef7d5b2.zip"
+    recordedResponseCode="200" responseSize="1085"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="cc360225-afd1-46c9-a576-860333da5ff1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2f913fe0-7c9b-4258-a274-dc27a3593238.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2f913fe0-7c9b-4258-a274-dc27a3593238.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:19 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:21 GMT&#xd;
+ETag: "43d-5418707372c40-gzip"&#xd;
+Accept-Ranges: bytes&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 448&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

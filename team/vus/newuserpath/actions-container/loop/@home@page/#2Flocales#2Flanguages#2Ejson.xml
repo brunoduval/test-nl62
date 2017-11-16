@@ -1,0 +1,38 @@
+<http-page executeResourcesDynamically="false"
+    name="/locales/languages.json" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/newuserpath/%resources%/recorded-artifacts/8cd07128-9347-47d2-8745-37d5335aaaac.zip"
+    slaProfileEnabled="false" thinkTime="1918"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8cd07128-9347-47d2-8745-37d5335aaaac">
+    <embedded-action>6fb78f40-b200-49e7-b029-431b0ad45698</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_4b501e61-62d6-47b3-87eb-ba08f3cbad05.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/locales/languages.json"
+    path="/locales/languages.json" postType="1"
+    recordedArtifactZipFileName="team/vus/newuserpath/%resources%/recorded-artifacts/8cd07128-9347-47d2-8745-37d5335aaaac.zip"
+    recordedResponseCode="200" responseSize="1050"
+    serverUid="WeatherCrisis" slaProfileEnabled="false"
+    uid="6fb78f40-b200-49e7-b029-431b0ad45698" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f60abbf9-baa0-4322-8e8d-85d2e3386578</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f60abbf9-baa0-4322-8e8d-85d2e3386578.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, sdch"/>
+    <header name="Accept-Language" value="en-US,en;q=0.8"/>
+    <header name="Host" value="ushahidi"/>
+    <header name="Referer" value="http://ushahidi/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 06 Oct 2017 13:34:19 GMT&#xd;
+Server: Apache/2.4.10 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:19 GMT&#xd;
+ETag: "41a-541870718a7c0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 1050&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
