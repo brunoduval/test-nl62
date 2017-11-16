@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="HomePage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="SLA" uid="3ea83dd1-101f-4bfb-b69e-b866ec0046d1" weightsEnabled="false">
+    <weighted-embedded-action uid="fea11e6d-fb1d-45d8-bc9f-38514cf10931"/>
+    <weighted-embedded-action uid="f546043a-1096-46a7-b674-c4bc53745427"/>
+    <weighted-embedded-action uid="5e10ffc6-ed03-4202-b66c-1e6a0707a605"/>
+    <weighted-embedded-action uid="182d40d5-38d2-4f1a-bae0-3ef838d0c941"/>
+    <weighted-embedded-action uid="0c274d78-773f-4bd7-b8a7-ab11b37ee365"/>
+    <weighted-embedded-action uid="8a42892a-97c4-4d27-aa44-9ee27ff65b0c"/>
+    <weighted-embedded-action uid="f53c82ac-d28b-4885-90be-305989713a2c"/>
+    <weighted-embedded-action uid="137e6a19-7ad3-484b-81dd-e442416168e3"/>
+    <weighted-embedded-action uid="53262150-65f7-4ed0-b6c3-dcbf74584ba9"/>
+    <weighted-embedded-action uid="5588f80b-de8c-4e77-b08d-6041819d310a"/>
+</basic-logical-action-container>
